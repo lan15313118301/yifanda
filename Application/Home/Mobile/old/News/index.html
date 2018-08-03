@@ -1,0 +1,46 @@
+<!--[include file="Public:header" /]-->
+<section> 
+  <div class="t-ctn b-ctn">
+    <h3 style="font-size:30px">{$typename}</h3>
+    <ul>
+       <li <!--[if condition="$type == '1'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=1')}">会计资讯</a></li>
+        <li <!--[if condition="$type == '2'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=2')}">学历资讯</a></li>
+        <li <!--[if condition="$type == '3'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=3')}">认证资讯</a></li>
+    </ul>
+  </div>
+  
+</section>
+<div style="clear:both"></div>
+<section> 
+  <div class="news inner">
+	
+        <!--[volist name="list" id="v"]-->
+            <!--[if condition="$i == 1"]-->
+                <div class="top">
+                    <a href="{:U('news/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                    <span class="title"><a href="{:U('news/show?id='.$v['id'].'')}">{$v.name|cut_str=12}</a></span>
+                    <p>{$v.summary|cut_str=70}</p>
+                    <span class="time">更新时间：{$v.addtime|date='Y-m-d',###}</span>
+                    <a href="{:U('news/show?id='.$v['id'].'')}" class="more">阅读全文</a>
+                </div>
+                <div class="content">
+                    <ul>
+            <!--[else/]-->
+                <li>
+                    <a href="{:U('news/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                    <div>
+                        <span class="hua"><font>+</font></span>
+                        <span class="tit"><a href="{:U('news/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                        <p>{$v.summary|cut_str=80}</p>
+                        <span class="time">{$v.addtime|date='Y-m-d',###}</span>
+                    </div>
+                </li>
+            <!--[/if]-->
+        <!--[/volist]-->
+		</ul>
+        <div class="page">{$page}</div>
+    </div>
+</div>
+</section>
+
+<!--[include file="Public:footer" /]-->

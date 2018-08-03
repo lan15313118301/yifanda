@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{$title}_银石惠众</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/public.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/index.css">
+<script type="text/javascript" src="__JS__/jquery.1.9.1.js"></script>
+<script type="text/javascript" src="__JS__/jquery.form.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="head inner"> <a href="__APP__/"><img src="__IMG__/logo.png" class="logo"></a>
+    <ul class="nav ">
+      <li <!--[if condition="CONTROLLER_NAME == 'Index'"]-->class="hover"<!--[/if]-->><a href="{:U("index/index")}">网站首页</a>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Aboutus'"]-->class="hover"<!--[/if]-->><a href="{:U("aboutus/index")}">关于我们</a>
+      	<div>
+        	<span><a href="{:U('aboutus/index')}">企业介绍</a></span>
+        	<span><a href="{:U('aboutus/honor')}">企业荣誉</a></span>
+        	<span><a href="{:U('aboutus/style')}">企业风采</a></span>
+        	<span><a href="{:U('aboutus/speech')}">总裁致辞</a></span>
+        </div>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Product'"]-->class="hover"<!--[/if]-->><a href="{:U("product/index")}">产品与解决方案</a>
+        <div class="threelist">
+          <!-- left -->
+          <div class="tablist">
+            <ul class="hd">
+              <li class="active">
+                <span>产品+</span></li>
+            </ul>
+            <div class="bd">
+                 <ul>
+        <!--[volist name="product" id="v"]-->
+            <li> <a href="{:U('product/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                <div>
+                <span><a href="{:U('product/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary|cut_str="30"}</p>
+                </div>
+            </li>
+        <!--[/volist]-->        
+      </ul>
+            </div>  
+          </div>
+
+          <div class="jie">
+            <ul class="hd">
+              <li class="active"><span>解决方案</span></li>
+            </ul>
+            <div class="bd">
+              <ul>
+                <li class="biaoti"><span>教育集团解决方案</span></li>
+                <li>
+                <!--[volist name="Programme1" id="v"]-->
+                  <a target="_blank" href="{:U('product/shows?id='.$v['id'])}">{$v.name}</a>
+                 <!--[/volist]-->
+                </li>
+              </ul>
+              <ul>
+                <li class="biaoti"><span>医联体解决方案</span></li>
+                <li>
+                  <!--[volist name="Programme2" id="v"]-->
+                  <a target="_blank" href="{:U('product/shows?id='.$v['id'])}">{$v.name}</a>
+                 <!--[/volist]-->
+                </li>
+              </ul>
+              
+              <ul>
+                <li class="biaoti"><span>政府解决方案</span></li>
+                <li>
+                  <!--[volist name="Programme4" id="v"]-->
+                  <a target="_blank" href="{:U('product/shows?id='.$v['id'])}">{$v.name}</a>
+                 <!--[/volist]-->
+                </li>
+              </ul>
+
+              <ul>
+                <li class="biaoti"><span>医院运营管理解决方案</span></li>
+                <li>
+                  <!--[volist name="Programme3" id="v"]-->
+                  <a target="_blank" href="{:U('product/shows?id='.$v['id'])}">{$v.name}</a>
+                 <!--[/volist]-->
+                </li>
+              </ul>
+
+              
+			  
+			  <ul>
+                <li class="biaoti"><span>DRG解决方案</span></li>
+                <li>
+                  <!--[volist name="Programme5" id="v"]-->
+                  <a target="_blank" href="{:U('product/shows?id='.$v['id'])}">{$v.name}</a>
+                 <!--[/volist]-->
+                </li>
+              </ul>
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Programme'"]-->class="hover"<!--[/if]-->><a href="{:U("programme/cases")}">案例展示</a>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Consultation'"]-->class="hover"<!--[/if]-->><a href="{:U("consultation/presale")}">咨询服务</a>
+      	<div>
+        	<span><a href="{:U('consultation/index')}">医院管理咨询</a></span>
+        	<span><a href="{:U('consultation/presale')}">售前咨询</a></span>                
+        	<span><a href="{:U('consultation/strategy')}">实施咨询</a></span>
+        </div>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'News'"]-->class="hover"<!--[/if]-->><a href="{:U("news/index")}">新闻资讯</a>
+      	<div>
+        	<span><a href="{:U('news/index?type=1')}">行业新闻</a></span>
+        	<span><a href="{:U('news/index?type=2')}">公司新闻</a></span>
+        	<span><a href="{:U('news/index?type=3')}">媒体报道</a></span>
+        </div>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Responsibility'"]-->class="hover"<!--[/if]-->><a href="{:U("responsibility/index")}">社会责任</a>
+      	<div>
+        	<span><a href="{:U('responsibility/index')}">公益理念</a></span>
+        	<span><a href="{:U('responsibility/charitable')}">慈善捐赠</a></span>                
+        	<span><a href="{:U('responsibility/responsibility')}">责任体系</a></span>
+        	<span><a href="{:U('responsibility/social')}">社会责任报告</a></span>
+        </div>
+      </li>
+      <li <!--[if condition="CONTROLLER_NAME == 'Contactus'"]-->class="hover"<!--[/if]-->><a href="{:U("contactus/index")}">联系我们</a>
+      	<div style="right:0; left:auto">
+        	<span><a href="{:U('contactus/index')}">联系方式</a></span>
+        	<span><a href="{:U('contactus/careers')}">招贤纳士</a></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

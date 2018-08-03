@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="234px" viewBox="0 0 234 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>6of6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.5994356%" y1="47.1229697%" x2="-2.87703033%" y2="60.4005644%" id="linearGradient-1">
+            <stop stop-color="#4EDCDF" offset="0%"></stop>
+            <stop stop-color="#2A7376" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="90 0 167.942286 45 167.942286 135 90 180 12.0577137 135 12.0577137 45"></polygon>
+        <polygon id="path-3" points="23.3858268 104 33.3070866 104 33.3070866 127.559055 28.3464567 125.792547 23.3858268 127.559055"></polygon>
+        <rect id="path-4" x="21.3605686" y="124.825135" width="14.1732283" height="14.1732283" rx="2"></rect>
+        <polygon id="path-5" points="17.007874 11.8886531 28.2940862 4.54747351e-13 39.6850394 11.8886531 39.6850394 101.179992 17.007874 101.179992"></polygon>
+        <polygon id="path-6" points="0 96.3779528 10.9648353 99.2125984 45.5225905 99.2125984 56.6929134 96.3779528 45.3543307 106.299213 11.3385827 106.299213"></polygon>
+        <rect id="path-7" x="26.9291339" y="2.83464567" width="2.83464567" height="87.8740157" rx="1.41732283"></rect>
+    </defs>
+    <g id="6of6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-50" transform="translate(116.942286, 116.942286) rotate(-330.000000) translate(-116.942286, -116.942286) translate(26.942286, 26.942286)">
+            <g id="Polygon-2">
+                <use fill="#26B6BB" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="url(#linearGradient-1)" stroke-width="6" d="M90,3.46410162 L15.0577137,46.7320508 L15.0577137,133.267949 L90,176.535898 L164.942286,133.267949 L164.942286,46.7320508 L90,3.46410162 Z"></path>
+            </g>
+            <g id="Group-49" opacity="0.800000012" transform="translate(60.944882, 18.425197)">
+                <g id="Rectangle-44">
+                    <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#FFFFFF" stroke-width="2" d="M24.3858268,105 L24.3858268,126.141436 L28.3464567,124.731034 L32.3070866,126.141436 L32.3070866,105 L24.3858268,105 Z"></path>
+                </g>
+                <g id="Rectangle-45" transform="translate(28.447183, 131.911750) rotate(-315.000000) translate(-28.447183, -131.911750) ">
+                    <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#FFFFFF" stroke-width="2" x="22.3605686" y="125.825135" width="12.1732283" height="12.1732283" rx="2"></rect>
+                </g>
+                <g id="Rectangle-40">
+                    <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <path stroke="#FFFFFF" stroke-width="2" d="M18.007874,12.287723 L18.007874,100.179992 L38.6850394,100.179992 L38.6850394,12.2903996 L28.2974286,1.44892754 L18.007874,12.287723 Z"></path>
+                </g>
+                <g id="Rectangle-42">
+                    <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <path stroke="#FFFFFF" stroke-width="2" d="M3.8308627,98.4011894 L11.7143178,105.299213 L44.9785956,105.299213 L52.8932765,98.3738668 L45.6474939,100.212598 L10.837665,100.212598 L3.8308627,98.4011894 Z"></path>
+                </g>
+                <g id="Rectangle-41">
+                    <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#FFFFFF" stroke-width="2" x="27.9291339" y="3.83464567" width="1" height="85.8740157" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

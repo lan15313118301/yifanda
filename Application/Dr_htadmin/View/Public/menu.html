@@ -1,0 +1,63 @@
+<div id="sidebar" class="sidebar responsive"> 
+  <script type="text/javascript">
+	try{ace.settings.check('sidebar','fixed')}catch(e){}
+  </script>
+  <ul class="nav nav-list" style="top: 0px;">
+    <li <!--[if condition="CONTROLLER_NAME == 'Index'"]-->class="active"<!--[/if]-->> <a href="{:U("dr_htadmin/index/index")}"> <i class="menu-icon fa fa-tachometer"></i> <span class="menu-text"> 控制台 </span> </a> <b class="arrow"></b></li>
+    <li class="<!--[if condition="CONTROLLER_NAME == 'Show' && $type == '1' || CONTROLLER_NAME == 'Style'"]-->active open <!--[/if]--> hsub"> <a href="#" class="dropdown-toggle"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 关于凡达 </span> <b class="arrow fa fa-angle-down"></b> </a> <b class="arrow"></b>
+    <ul class="submenu">
+      <li <!--[php]-->if(CONTROLLER_NAME == 'Show' && $showid == '1') echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/show/index?id=1")}"><i class="menu-icon fa fa-caret-right"></i>公司介绍</a>
+      <b class="arrow"></b>
+      </li>
+      <li <!--[php]-->if(CONTROLLER_NAME == 'Show' && $showid == '2') echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/show/index?id=2")}"><i class="menu-icon fa fa-caret-right"></i>MOtion</a>
+      <b class="arrow"></b></li>
+      
+    </ul>
+    </li>
+    
+    <li class="<!--[if condition="CONTROLLER_NAME == 'Product'"]-->active open <!--[/if]--> hsub"> <a href="#" class="dropdown-toggle"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 游戏合作 </span> <b class="arrow fa fa-angle-down"></b> </a> <b class="arrow"></b>
+    <ul class="submenu">
+      <li <!--[php]-->if(CONTROLLER_NAME == 'Product' && $type == 1) echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/product/index?type=1")}"><i class="menu-icon fa fa-caret-right"></i>游戏</a><b class="arrow"></b></li>
+      <li <!--[php]-->if(CONTROLLER_NAME == 'Product' && $type == 2) echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/product/index?type=2")}"><i class="menu-icon fa fa-caret-right"></i>合作伙伴</a><b class="arrow"></b></li>
+      
+    </ul>
+    </li>
+    
+    <li class="<!--[if condition="CONTROLLER_NAME == 'Programme' || CONTROLLER_NAME == 'Case'"]-->active open <!--[/if]--> hsub"> <a href="#" class="dropdown-toggle"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 游戏发行商 </span> <b class="arrow fa fa-angle-down"></b> </a> <b class="arrow"></b>
+    <ul class="submenu">
+      <li <!--[php]-->if($type == 1) echo 'class="active"';<!--[/php]--> > <a href="{:U("dr_htadmin/programme/index?type=1")}"> 游戏发行商</a> <b class="arrow"></b> </li>
+
+      </li> 
+      
+    </ul>
+    </li>
+    
+    
+    
+    
+    <li class="<!--[if condition="CONTROLLER_NAME == 'News'"]-->active open <!--[/if]--> hsub"> <a href="#" class="dropdown-toggle"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 新闻资讯 </span> <b class="arrow fa fa-angle-down"></b> </a> <b class="arrow"></b>
+    <ul class="submenu">
+      <li <!--[php]-->if($type == 1) echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/news/index?type=1")}"><i class="menu-icon fa fa-caret-right"></i>行业新闻</a><b class="arrow"></b></li>
+      
+    </ul>
+    </li>
+   
+   
+    <li class="<!--[if condition="CONTROLLER_NAME == 'Show' && $type == '4' || CONTROLLER_NAME == 'Careers'"]-->active open <!--[/if]--> hsub"> <a href="#" class="dropdown-toggle"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 招贤纳士 </span> <b class="arrow fa fa-angle-down"></b> </a> <b class="arrow"></b>
+    <ul class="submenu">
+<!--      <li <!--[php]-->if(CONTROLLER_NAME == 'Show' && $showid == '1') echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/show/index?id=1")}"><i class="menu-icon fa fa-caret-right"></i>公司介绍</a><b class="arrow"></b></li>-->
+      <li <!--[php]-->if(CONTROLLER_NAME == 'Careers') echo "class='active'";<!--[/php]-->><a href="{:U("dr_htadmin/careers/index")}"><i class="menu-icon fa fa-caret-right"></i>招贤纳士</a><b class="arrow"></b></li>
+    </ul>
+    </li>
+    
+    <li <!--[if condition="CONTROLLER_NAME == 'Course'"]-->class="active"<!--[/if]-->> <a href="{:U("dr_htadmin/course/index")}"> <i class="menu-icon fa fa-file"></i> <span class="menu-text"> 公司历程 </span> </a> <b class="arrow"></b></li>
+  </ul>
+  
+  <!-- #section:basics/sidebar.layout.minimize -->
+  <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse"> <i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i> </div>
+  
+  <!-- /section:basics/sidebar.layout.minimize --> 
+  <script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+				</script> 
+</div>

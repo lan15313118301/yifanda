@@ -1,0 +1,18 @@
+<div class="ernav">
+<span>产品展示</span>
+<ul>            
+  <li <!--[if condition="ACTION_NAME == 'index'"]-->class="hover"<!--[/if]--> ><a href="{:U('product/index')}">产品展示</a></li>
+</ul>
+</div>
+
+
+<div class="ernav" style="position:absolute;top:710px;">
+<span>解决方案</span>
+<ul>            
+  	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=1')}">教育集团解决方案</a></li>
+    <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=2')}">医联体解决方案</a></li>
+    <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=3')}">医院运营管理解决方案</a></li>
+    <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=4')}">政府解决方案</a></li>
+    <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=5')}">DRG解决方案</a></li>
+</ul>
+</div>

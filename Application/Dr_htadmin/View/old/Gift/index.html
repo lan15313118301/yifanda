@@ -1,0 +1,157 @@
+<!--[include file="Public:header" /]-->
+<script src="__PUBLIC__/dr_htadmin/js/bootstrap.min.js"></script> 
+<div class="main-container" id="main-container"> 
+<script type="text/javascript">
+	try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+</script> 
+  <!--[include file="Public:menu" /]-->
+  <div class="main-content">
+    <div class="page-content">
+      <div class="page-content-area">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="row">
+            <form action="{:U('news/dels')}" method="post" id="myform">
+            	<input type="hidden" name="type" value="{$type}">
+              <div class="col-xs-12">
+                <h3 class="header smaller lighter blue">新闻中心 <small> <i class="ace-icon fa fa-angle-double-right"></i> 内容管理 </small> </h3>
+                <div class="well well-sm">
+                  <button type="button" class="close line-height-0" data-dismiss="alert"> <i class="ace-icon fa fa-times smaller-75"></i> </button>
+                  <a class='menubutton' href='{:U("dr_htadmin/news/add?type=".$type."")}'> 添加数据 <i class="fa fa-external-link bigger-110"></i> </a> </div>
+                <div class="table-header"> 内容 </div>
+                <div>
+                  <table id="sample-table-2" class="table table-striped table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th class="center"> <label class="position-relative">
+                            <input type="checkbox" class="ace" />
+                            <span class="lbl"></span> </label>
+                        </th>
+                        <th style="width:60px">排序</th>
+                        <th>名称</th>
+                        
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!--[volist name="list" id="v"]-->
+                      <tr>
+                        <td class="center"><label class="position-relative">
+                            <input type="checkbox" class="ace" name="id[]" value="{$v.id}" />
+                            <span class="lbl"></span> </label></td>
+                        <td style="padding:2px">
+                        	<input type="text" name="sort[]" value="{$v.sort}" style="width:35px">
+                            <input type="hidden" name="sortid[]" value="{$v.id}">
+                        </td>
+                        <td>{$v[name]}</td>
+                        
+                        <td><div class="hidden-sm hidden-xs action-buttons"> 
+                            
+                            <a class="green" href="{:U("dr_htadmin/news/edit?id=".$v['id']."&type=".$type."")}"> <i class="ace-icon fa fa-pencil bigger-130"></i> </a> 
+                            <a class="red" href="{:U("dr_htadmin/news/del?id=".$v['id']."")}" onclick="if (confirm('确认删除吗？')){return true;}else{return false;}"> <i class="ace-icon fa fa-trash-o bigger-130"></i> </a> </div></td>
+                      </tr>
+                      <!--[/volist]-->
+                      
+                    </tbody>
+                    <tr>
+                        <td class="right" colspan="8">
+                        	<input type="submit" class="btn btn-info" value="批量删除">
+                            <input type="submit" class="btn btn-info" value="保存排序" onClick="$('#myform').attr('action', '{:U("news/sort")}'); ">
+                        </td>
+                      </tr>
+                  </table>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.col --> 
+        </div>
+        <!-- /.row --> 
+      </div>
+      <!-- /.page-content-area --> 
+    </div>
+    <!-- /.page-content --> 
+  </div>
+  <!-- /.main-content --> 
+  
+  <!--[include file="Public:footer" /]--> 
+  
+  <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse"> <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i> </a> </div>
+<!-- /.main-container --> 
+
+<!-- basic scripts --> 
+
+<!--[if !IE]> -->
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/dr_htadmin/js/jquery.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]--> 
+
+<!--[if IE]>
+        <script type="text/javascript">
+         window.jQuery || document.write("<script src='__PUBLIC__/dr_htadmin/js/jquery1x.min.js'>"+"<"+"/script>");
+        </script>
+        <![endif]--> 
+<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='__PUBLIC__/dr_htadmin/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script> 
+<script src="__PUBLIC__/dr_htadmin/js/bootstrap.min.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/jquery.dataTables.min.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/jquery.dataTables.bootstrap.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/ace-elements.min.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/ace.min.js"></script> 
+<script type="text/javascript">
+			jQuery(function($) {
+				var oTable1 = 
+				$('#sample-table-2')
+				.dataTable( {
+					bAutoWidth: false,
+					"aoColumns": [
+					  { "bSortable": false },
+					  null,null,
+					  { "bSortable": false }
+					],
+					"aaSorting": [],
+			
+			    } );
+			
+			
+				$(document).on('click', 'th input:checkbox' , function(){
+					var that = this;
+					$(this).closest('table').find('tr > td:first-child input:checkbox')
+					.each(function(){
+						this.checked = that.checked;
+						$(this).closest('tr').toggleClass('selected');
+					});
+				});
+			
+			
+				$('[data-rel="tooltip"]').tooltip({placement: tooltip_placement});
+				function tooltip_placement(context, source) {
+					var $source = $(source);
+					var $parent = $source.closest('table')
+					var off1 = $parent.offset();
+					var w1 = $parent.width();
+			
+					var off2 = $source.offset();
+					//var w2 = $source.width();
+			
+					if( parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2) ) return 'right';
+					return 'left';
+				}
+			
+			})
+		</script>
+<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace.onpage-help.css" />
+<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/js/themes/sunburst.css" />
+<script type="text/javascript"> ace.vars['base'] = '..'; </script> 
+<script src="__PUBLIC__/dr_htadmin/js/ace/elements.onpage-help.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/ace/ace.onpage-help.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/rainbow.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/language/generic.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/language/html.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/language/css.js"></script> 
+<script src="__PUBLIC__/dr_htadmin/js/language/javascript.js"></script>
+</body></html>

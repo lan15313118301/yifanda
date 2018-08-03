@@ -1,0 +1,206 @@
+<!--[include file="Public:header" /]-->
+<style type="text/css">
+	
+	.index2 .pro_f:hover{background:#345C93;color:#FFF;}
+</style>
+<script type="text/javascript" src="__JS__/jquery.DB_tabMotionBanner.min.js"></script>
+<link rel="stylesheet" href="__CSS__/index.css">
+<div class="DB_tab25"><!--banner-->
+  <ul class="DB_bgSet">
+    <!--banner_bg-->
+    <li style="display: list-item;; background: url(__IMG__/banner1.jpg) no-repeat center;"></li>
+    <li style="display:none; background: url(__IMG__/banner2.jpg) no-repeat center;"></li>
+    <li style="display:none; background: url(__IMG__/banner3.jpg) no-repeat center;"></li>
+    <li style="display:none; background: url(__IMG__/banner4.jpg) no-repeat center;"></li>
+  </ul>
+  <ul class="DB_imgSet" style="position: relative;">
+    <!--banner_con-->
+    <li style="position: absolute; display: none;"></li>
+    <li style="position: absolute; display: none;"></li>
+    <li style="position: absolute; display: none;"></li>
+    <li style="position: absolute; display: list-item;"></li>
+  </ul>
+  <div class="DB_menuWrap">
+    <ul class="DB_menuSet">
+      <li class=""><img src="__IMG__/btn_off.png"></li>
+      <li class=""><img src="__IMG__/btn_off.png"></li>
+      <li class=""><img src="__IMG__/btn_off.png"></li>
+      <li class="select"><img src="__IMG__/btn_on.png"></li>
+    </ul>
+    <div class="DB_next"></div>
+    <div class="DB_prev"></div>
+  </div>
+</div>
+<div class="index_b_d inner"> <img src="__IMG__/img5.png"> </div>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'',
+	autoRollingTime:5000,                            
+	bgSpeed:500,
+	
+})
+</script>
+<div style="clear:both"></div>
+<div class="index2 inner">
+	<span class="index_title">
+	<span>产品展示</span>
+	<span>Product Display</span>
+		<img src="__IMG__/ititle.png">
+	</span>
+	
+  <ul style="margin-top:50px;">
+  <!--[volist name="product" id="v" offset="0" length="4"]-->
+    <li style="min-height:300px;"><a href="{:U('product/show?id='.$v['id'])}"><img src="__IMG__/img{$i}.png"><span class="t">{$v.name}</span>
+      <p>{$v.summary|cut_str="30"}</p>
+      </a><span class="x"></span></li>
+  <!--[/volist]-->
+  </ul>
+</div>
+
+
+<div style="clear:both;"></div>
+<div class="index2 inner">
+  <span class="index_title">
+  <span>银石惠众业务架构图</span>
+  <span>Business architecture</span>
+    <img src="__IMG__/ititle.png">
+  </span>
+  
+  <img style="float:left;display:block;margin:0 auto;margin-left:110px;" src="__IMG__/jiagou.jpg" alt="银石惠众业务架构图">
+</div>
+
+
+
+
+<div style="clear:both"></div>
+<div class="index3bg">
+  <div class="index3 inner"><span class="index_title"><span>解决方案</span><span>Solutions</span><img src="__IMG__/ititle.png"></span>
+    <div class="content">
+      <ul>
+        <li>
+          <div class="img"> <a href="{:U('product/programme?type=1')}"> <img src="__IMG__/img6.png">
+            <div class="t">教育集团解决方案</div>
+            <div class="c"> <span>教育集团解决方案</span>
+              <p>教育集团解决方案将为教育集团构建数据集中共享、全面集成、业务协同高效、支持管理决策全面方案，实现集团下属医院统一管控、业务协同，实现集团层面资源及服务的合理共享，提高利用效率（集中管控、财务共享、集约化采购），并实时监控各教育单位运行情况，对有差异的业务处理，及时纠正纠偏，规避风险。</p>
+            </div>
+            </a> </div>
+          <div class="img"> <a href="{:U('product/programme?type=2')}"> <img src="__IMG__/img7.png">
+            <div class="t">医联体解决方案</div>
+            <div class="c"> <span>医联体解决方案</span>
+              <p>医联体解决方案围绕医联体关于资源共享、信息共享、利益二次分配的几个核心诉求，通过优化医院运营，实现教育资源（医生、医技、人力、高端教育以及资本）的共享、信息共享、管理协同，实现整体的配送优势，发挥成本优势，降低综合成本以及资金成本，并且通过DRGs分组及付费解决利益二次分配问题。</p>
+            </div>
+            </a> </div>
+        </li>
+        <li>
+          <div class="img"> <a href="{:U('product/programme?type=3')}"> <img src="__IMG__/img8.png">
+            <div class="t">医院运营管理解决方案</div>
+            <div class="c" style="height:460px;"> <span>医院运营管理解决方案</span>
+              <p>设备管理解决方案涵盖了设备的全生命周期管理，从设备购置、入库、日常维护保养、维修、到最终的处置报废，贯穿整个生命周期。方案将通过对设备日常运行维护的精细化管理以及故障、巡检等APP的应用，加强教育设备的质量及安全管理，同时通过单机效能分析，为设备调配、采购论证、绩效评估提供科学、可靠的结论。</p>
+            </div>
+            </a> </div>
+        </li>
+        <li>
+          <div class="img"> <a href="{:U('product/programme?type=4')}"> <img src="__IMG__/img9.png">
+            <div class="t">政府解决方案</div>
+            <div class="c"> <span>政府解决方案</span>
+              <p> 按照国家发改委《关于加强政府定价成本监审工作的意见》和《推进教育服务价格改革的意见》的要求，结合发改委教育服务价格成本监审的工作的需要，设计的教育服务定价成本监审系统，一方面实现了被监审医院与成本监审管理信息系统的信息互通，简化了被监审医院的数据报送和数据核验工作；另一方面，成本监审系统将监审工作标准化、流程化，通过智能数据核对、成本计算、历史信息继承、成本比对和统计分析等功能。</p>
+            </div>
+            </a> </div>
+          <div class="img"> <a href="{:U('product/programme?type=5')}"> <img src="__IMG__/img10.png">
+            <div class="t">DRG解决方案</div>
+            <div class="c"> <span>DRG解决方案</span>
+              <p>银石惠众DRG智能管理平台获得国家CN-DRGs分组器官方授权，并借助公司14年来在成本核算和医院运营超过90%的市场占有率下的数据积累及大数据平台应用，及内外部专业的DRG咨询团队， DRG解决方案可助力医保机构的高效分配、卫生计生委的高效监管、教育机构的高效运营。银石惠众DRG智能管理平台的优化病案质控体系、实现DRG精准分组、强化医院绩效管理的功能，及独家特有的DRG病组成本分析应用功能。</p>
+            </div>
+            </a> </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+<div class="index4 inner"> <span class="index_title"><span>经典案例</span><span>Classic Cases</span><img src="__IMG__/ititle.png"></span>
+  <ul>
+  	<!--[volist name="case" id="v"]-->
+    <li> <a href="{:U('programme/cases_show?id='.$v['id'].'')}"><img src="{$v.thumb}" alt="" title="" width="390" height="290" />
+      <div> <span>{$v.name}</span> <span>{$v.summary}</span> <span></span> <span>+</span> </div>
+      </a> </li>
+    <!--[/volist]-->
+  </ul>
+  <a href="{:U('programme/cases')}" class="more">查看更多案例</a> </div>
+<div style="clear:both"></div>
+<div class="index3bg">
+  <div class="index5 inner"> <span class="index_title"><span>新闻中心</span><span>News Center</span><img src="__IMG__/ititle.png"></span>
+    <ul>
+      <!--[volist name="news" id="v"]-->
+      <li> <a href="{:U('news/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+        <div> <span class="hua"><font>+</font></span> <span class="tit"><a href="{:U('news/show?id='.$v['id'].'')}">{$v.name|cut_str="30"}</a></span>
+          <p>{$v.summary}</p>
+          <span class="time">{$v.addtime|date='Y-m-d',###}</span> </div>
+      </li>
+      <!--[/volist]-->
+      
+    </ul>
+  </div>
+</div>
+<div class="index6 inner"> <span class="index_title"><span>公司历程</span><span>Company History</span><img src="__IMG__/ititle.png"></span>
+  <div class="content">
+    <ul>
+     <!--[volist name="course" id="v"]-->
+      <li> <div class="c"><a><img src="{$v.thumb}">
+        <div> <span>{$v.name}</span>
+          <p>{$v.summary}</p>
+          <span></span> </div>
+          
+        </a></div><span class="n">0{$i}</span> </li>
+      <!--[/volist]-->
+    </ul>
+  </div>
+</div>
+<div style="clear:both"></div>
+<div class="index7 inner">
+	<span class="t"><img src="__IMG__/rytitle.jpg"></span>
+    <div class="content">
+    	<span class="xian"></span>
+        <ul>
+        	<li>
+            	<span></span>
+            	<span>1600+</span>
+                <span></span>
+                <span>累计客户</span>            
+            </li>
+            <li>
+            	<span></span>
+            	<span>20+</span>
+                <span></span>
+                <span>卫生厅局</span>            
+            </li>
+            <li>
+            	<span></span>
+            	<span>10</span>
+                <span></span>
+                <span>教育集团</span>            
+            </li>
+            <li>
+            	<span></span>
+            	<span>855</span>
+                <span></span>
+                <span>基层教育结构</span>            
+            </li>
+            <li>
+            	<span></span>
+            	<span>200+</span>
+                <span></span>
+                <span>二级医院</span>            
+            </li>
+            <li>
+            	<span></span>
+            	<span>400+</span>
+                <span></span>
+                <span>三级医院</span>            
+            </li>
+        </ul>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div style="clear:both"></div>
+<!--[include file="Public:footer" /]-->

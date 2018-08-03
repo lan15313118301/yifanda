@@ -1,0 +1,135 @@
+.threelist .tablist {
+    width: 590px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.threelist .hd {
+    margin-top:15px;
+    margin-left:15px;
+    width: 100%;
+    border-bottom: 1px solid #1D4A87;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.threelist .hd li {
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.threelist .hd li.active span {
+    background: #1D4A87;
+    color: #fff;
+}
+.threelist .hd li span {
+    display: block;
+    padding: 0px 10px;
+    color: #808080;
+    font-size: 18px;
+    float: left;
+}
+
+.threelist .tablist .bd ul {
+    float: left;
+    /*width: 16.65%;*/
+}
+
+.threelist .tablist .bd ul li {
+    float:left;
+    width:50%;
+}
+
+.threelist .tablist .bd ul li div{
+    float:left;
+    width:170px;
+}
+.threelist .tablist .bd ul li span {
+    float: left;
+    margin-left:15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+.threelist .tablist .bd ul li p {
+        float: left;
+    margin-left:15px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+
+
+
+
+.threelist .tablist .bd ul img {
+    margin-left:15px;
+    margin-top:15px;
+    display:block;
+    float:left;
+    width:100px;
+    height:100px;
+}
+
+.threelist .tablist .bd .t1 {
+    width: 180px;
+}
+
+.threelist .tablist .bd ul li span {
+    font-size: 16px;
+    color: #1D4A87;
+    display: block;
+}
+.threelist .tablist .bd .t2{width:240px;}
+.threelist .tablist .bd .last{width:130px;}
+.threelist .tablist .bd ul li a{font-size:14px;color:#808080;line-height:25px;margin-right:10px;}
+.threelist .tablist .bd ul li a:hover{color:#1D4A87;border-bottom:1px solid #1D4A87;}
+
+.threelist .jie {
+    float: left;
+    width: 580px;
+    box-sizing: border-box;
+}
+
+.threelist .jie .bd ul {
+    width:50%;
+    overflow: hidden;
+    float: left;
+}
+
+.threelist .jie .bd ul li {
+    float:left;
+    padding: 1px 10px;
+    overflow: hidden;
+    color: #ccc;
+    text-align: left;
+    line-height: 27px;
+    margin-left:15px;
+
+}
+
+.threelist .jie .bd ul li a {
+    display: block;
+    font-size: 14px;
+    color: #808080;
+    line-height: 25px !important;
+    margin-right: 38px;
+    box-sizing:border-box;
+    height:26px;
+}
+
+.threelist .jie .bd ul li a:hover{box-sizing:border-box;color:#1D4A87;border-bottom:1px solid #1D4A87;}
+
+.threelist .jie .bd ul .biaoti {
+    float: none;
+}
+
+.threelist .jie .bd ul li span {
+    color: #1D4A87;
+    font-size: 16px;
+    font-weight:bold;
+}

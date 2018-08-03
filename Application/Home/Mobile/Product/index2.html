@@ -1,0 +1,32 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <div class="bty">
+		<img src="__PUBLIC__/mobile/img/productbg.jpg" width="640" height="202" alt="banner">
+	</div>
+    <ul>
+
+			<li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('product/index?type=2')}">合作平台</a></li>
+  <li style="background:none">&nbsp;</li>
+</ul>
+
+  </div>
+  
+</section>
+
+<section> 
+    <div class="content product">
+    	<ul>
+        <!--[volist name="list" id="v"]-->
+            <li> <a href="{:U('product/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                <span><a href="{:U('product/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+            </li>
+        <!--[/volist]-->        
+      </ul>
+    <div class="page">{$page}</div>
+  </div>
+  </section>
+<!--[include file="Public:footer" /]-->

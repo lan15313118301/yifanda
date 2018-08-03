@@ -1,0 +1,2825 @@
+[ 2018-07-06T15:30:14+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.033764s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000947s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.598607s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.009592s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.020575s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000824s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.017727s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000379s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000421s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000428s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000477s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.039489s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.012578s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.042360s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.013579s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.052462s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.011750s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.078337s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.029301s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.096397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2018-07-06T15:31:06+08:00 ] 127.0.0.1 /Dr_htadmin/login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+NOTIC: [8] Undefined index: login E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-07-06T15:31:06+08:00 ] 127.0.0.1 /dr_htadmin/login/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2018-07-06T15:31:15+08:00 ] 127.0.0.1 /Dr_htadmin/login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.146871s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 22 行.
+SQL: SELECT * FROM `dr_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001228s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 26 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpStudy\WWW\xunda\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8] Undefined index: lang E:\phpStudy\WWW\xunda\Application\Dr_htadmin\Controller\LoginController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: error E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\9614e8c08040b2affbcf5c94d13d3a84.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+
+[ 2018-07-06T15:31:18+08:00 ] 127.0.0.1 /Dr_htadmin/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.018119s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012592s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.012257s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000384s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.011628s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000407s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012139s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010128s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000387s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 72 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 140 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 141 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 142 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 148 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 149 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 150 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 151 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 152 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 153 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 154 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 171 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 172 行.
+NOTIC: [8] Undefined variable: type E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\0a7718ac7acd76d46d7fdb62ffe16357.php 第 173 行.
+SQL: select version() as v; [ RunTime:0.095996s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.607201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.607278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2018-07-06T15:31:25+08:00 ] 127.0.0.1 /dr_htadmin/show/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.039365s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.020286s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000485s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.014522s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000436s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.009594s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000358s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012112s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.012578s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000447s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+SQL: SELECT * FROM `dr_show` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\df7fa7e0fc6ba5a6af9fd7ad507879cd.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-07-06T15:31:35+08:00 ] 127.0.0.1 /dr_htadmin/programme/index/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.034554s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.019418s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.012062s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000382s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.011024s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000396s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012434s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.011625s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000407s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.025700s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.026475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\7ce99eae721d4de6c47d78ff9dbde551.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\7ce99eae721d4de6c47d78ff9dbde551.php 第 242 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.049219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-07-06T15:33:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.058440s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001613s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.041228s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.019120s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000484s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.020421s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000587s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000636s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000429s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000310s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.017643s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.018846s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.022838s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.032550s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2018-07-06T15:34:37+08:00 ] 127.0.0.1 /dr_htadmin/programme/add/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.039013s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.023309s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000456s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.011105s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000373s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.012703s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000719s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.011687s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010010s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000420s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 72 行.
+NOTIC: [8] Undefined variable: list E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 228 行.
+NOTIC: [8] Undefined variable: list E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 235 行.
+NOTIC: [8] Undefined variable: list E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 288 行.
+NOTIC: [8] Undefined variable: list E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 296 行.
+NOTIC: [8] Undefined variable: list E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\630ea6d6ff52d94c04fc9007fcdd70a2.php 第 334 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.185795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003536s ]
+
+[ 2018-07-06T15:35:10+08:00 ] 127.0.0.1 /dr_htadmin/programme/index/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.035339s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.036918s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000936s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.021607s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000585s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.015327s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000732s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012375s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.011093s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000363s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.011870s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\7ce99eae721d4de6c47d78ff9dbde551.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\7ce99eae721d4de6c47d78ff9dbde551.php 第 242 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-07-06T15:38:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.045277s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.002423s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.039386s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.020651s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000380s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.031746s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000468s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000344s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000325s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000320s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.031922s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.029112s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.027050s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.023918s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001060s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.017866s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002496s ]
+
+[ 2018-07-06T15:41:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.025445s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001999s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.027235s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.027055s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001232s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.021133s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000354s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000364s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001794s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001419s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.026904s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.026890s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.002028s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.027400s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.026145s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001331s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.027622s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant faxing - assumed 'faxing' E:\phpStudy\WWW\xunda\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [2] Illegal string offset 'content' E:\phpStudy\WWW\xunda\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001798s ]
+
+[ 2018-07-06T15:41:28+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.040215s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001888s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.022238s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.027123s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000554s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.022702s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001297s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002764s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001647s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001228s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.026597s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002732s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.024942s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.027346s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.027813s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001503s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.032486s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2018-07-06T15:42:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002534s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.026006s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.002788s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.027342s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.021395s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000655s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.018475s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000776s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000496s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000274s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000266s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.024792s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002619s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.025544s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.040512s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.035178s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.030982s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003057s ]
+
+[ 2018-07-06T15:42:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.032000s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000395s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.022810s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.032910s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001102s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.023270s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.003173s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000658s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001290s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002724s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.023719s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002882s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.029228s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.031102s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.029786s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000803s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.024912s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-07-06T15:42:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.056196s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000471s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.031060s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.018710s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000464s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.027421s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001102s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000736s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000530s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000387s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.025910s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.027570s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.003234s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.024921s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.026358s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.020508s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-07-06T15:43:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.031904s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000530s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.023351s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.025588s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000400s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.019874s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.003053s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000940s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002180s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002182s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.021112s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.028357s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.031642s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.028628s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001406s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.023073s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.001364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2018-07-06T15:43:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.036787s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001071s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.022432s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.022287s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001282s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.020567s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000646s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.003021s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001340s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002797s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.022224s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.028118s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.017289s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.026963s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001485s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.033154s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-07-06T15:44:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.025222s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.002318s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025443s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.031260s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002086s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.028000s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000432s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000669s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001979s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001037s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.031623s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.024304s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.028144s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.025193s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000672s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.027787s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.001821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-07-06T15:44:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.023241s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.002580s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.027861s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.020187s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001888s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.022823s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001126s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000552s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000400s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000424s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.026783s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.024593s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.025485s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.025918s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.001486s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.022948s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.002366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2018-07-06T15:47:20+08:00 ] 127.0.0.1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004275s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.051486s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001614s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.043806s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.018173s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000434s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.018418s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000546s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002577s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001063s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001178s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.025088s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 1 )  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.067400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2018-07-06T15:49:07+08:00 ] 127.0.0.1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.038549s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001815s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.022125s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.013741s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000459s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010192s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000369s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000321s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000355s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000316s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011977s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 1 )  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-07-06T15:49:11+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.040862s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001236s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.020349s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.016059s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000343s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010621s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000353s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000322s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000320s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000314s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.012968s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.013188s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.012084s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.012935s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.010844s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-07-06T15:49:18+08:00 ] 127.0.0.1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.022720s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000435s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.029541s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.019954s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000979s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.023083s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001536s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000703s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000649s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000486s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.019387s ]
+SQL: SELECT * FROM `dr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.057613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-07-06T15:50:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003912s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.039567s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000699s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.019320s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.017615s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000710s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.015461s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000390s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000332s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000327s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000322s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.013137s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.014282s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.011095s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011988s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.012157s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-07-06T15:50:37+08:00 ] 127.0.0.1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.029703s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001620s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.020738s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002134s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.021542s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001163s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000704s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000624s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000378s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.023418s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 1 )  [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2018-07-06T15:50:40+08:00 ] 127.0.0.1 /product/show/id/11.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.025848s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000432s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.013983s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.011098s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000389s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.012087s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000490s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000342s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000671s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000344s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.013185s ]
+SQL: SELECT * FROM `dr_product` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 103 行.
+NOTIC: [8] Undefined index: enname E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2018-07-06T15:50:43+08:00 ] 127.0.0.1 /product/show/id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.030332s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000555s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.016795s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.022906s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001014s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.022017s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000427s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000365s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000351s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000337s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011523s ]
+SQL: SELECT * FROM `dr_product` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 103 行.
+NOTIC: [8] Undefined index: enname E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 106 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2018-07-06T15:52:03+08:00 ] 127.0.0.1 /product/index/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.033151s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001273s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.026052s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.013282s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000396s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010459s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000562s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000347s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000353s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000345s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.013551s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '1' )  [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-07-06T15:53:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.033905s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000837s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.019085s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010946s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000374s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.011471s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000464s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000344s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000337s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000335s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.022605s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.052309s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.002974s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.029202s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.013103s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.013673s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-07-06T15:53:30+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.032596s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001205s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.045405s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001985s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.038162s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000607s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.042513s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002039s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001370s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000764s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000897s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.031424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2018-07-06T15:54:58+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.026851s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000916s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025283s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.013207s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000375s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010476s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000349s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000292s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000276s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000286s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.011226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-07-06T15:55:19+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.037027s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000799s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.023574s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.033085s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002976s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.029758s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000864s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000747s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000515s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000456s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.012059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-07-06T15:55:58+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.036697s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001342s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025384s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010878s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000513s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.009740s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000864s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000441s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000321s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000429s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.012285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2018-07-06T15:56:20+08:00 ] 127.0.0.1 /dr_htadmin/product/index/type/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_user` [ RunTime:0.033777s ]
+SQL: SELECT * FROM `dr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.019551s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=1 )  [ RunTime:0.000466s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `dr_icolor` [ RunTime:0.011568s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_icolor`
+SQL: SELECT * FROM `dr_icolor`  [ RunTime:0.000383s ]
+ERR: 1146:Table 'xunda.dr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_icolor` 
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.009853s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000364s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012338s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.009858s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000356s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.029699s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: gu E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\03c8fedfb3ed22ca4b312c7b80dada98.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Dr_htadmin\03c8fedfb3ed22ca4b312c7b80dada98.php 第 242 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-07-06T15:57:08+08:00 ] 127.0.0.1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.017918s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000397s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.014955s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.015011s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000385s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.013195s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000375s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000505s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000342s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000335s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.013191s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 1 )  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2018-07-06T15:57:10+08:00 ] 127.0.0.1 /product/index/type/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.015642s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000420s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012232s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010978s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000423s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.011034s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000413s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000354s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000347s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000336s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.012382s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '2' )  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-07-06T15:57:12+08:00 ] 127.0.0.1 /product/index/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.025358s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000367s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.014630s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.012126s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000388s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010833s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000386s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000507s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000636s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000404s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011337s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '1' )  [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-07-06T15:57:18+08:00 ] 127.0.0.1 /product/index/type/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.016765s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000416s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.011949s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.009903s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000413s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010702s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000462s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000352s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000353s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000354s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011977s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '2' )  [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-07-06T15:59:05+08:00 ] 127.0.0.1 /product/index/type/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.037618s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000752s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.021085s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.013071s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000397s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.011522s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000442s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000353s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000336s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000338s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.013588s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '2' )  [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-07-06T15:59:07+08:00 ] 127.0.0.1 /product/index/type/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.015503s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000426s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.012721s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.009668s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000356s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.011280s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000400s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000388s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000332s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000353s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.012204s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = '1' )  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-07-06T16:00:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.033088s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000723s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.029240s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.012579s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001002s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.011090s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000357s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000307s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000293s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000399s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.014777s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.014594s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.013948s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011939s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.013280s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-07-06T16:01:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.020521s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000496s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.021583s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.022667s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000500s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.019028s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000425s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000349s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000342s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000397s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.028564s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.020625s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.003136s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.025883s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.020051s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.026765s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004405s ]
+
+[ 2018-07-06T16:01:07+08:00 ] 127.0.0.1 /product/index2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.035064s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000404s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.022873s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.021777s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000492s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.019459s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000386s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000392s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000339s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000371s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.031249s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 2 )  [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\df71e15e5a61fbd63b8344022e5a4788.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-07-06T16:02:00+08:00 ] 127.0.0.1 /product/index2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.028092s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001046s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.027565s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.022228s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000594s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.015521s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000561s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000498s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000462s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000485s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.014317s ]
+SQL: SELECT * FROM `dr_product` WHERE ( `type` = 2 )  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\WWW\xunda\Application\Runtime\Cache\Home\df71e15e5a61fbd63b8344022e5a4788.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-07-06T16:02:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.034000s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000605s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.013408s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.010296s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000370s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.009658s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000410s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000338s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000340s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000351s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.011623s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.012863s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.012761s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011187s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.011790s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-07-06T16:02:09+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.031857s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000702s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.026317s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.020764s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000668s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.019382s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000985s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001866s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002364s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001391s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.023657s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002423s ]
+
+[ 2018-07-06T16:02:56+08:00 ] 127.0.0.1 /programme/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+NOTIC: [2048] Declaration of Home\Controller\ProgrammeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\ProgrammeController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.032315s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001251s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.026943s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.013359s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000427s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.009784s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000373s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000378s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000342s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000347s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.011943s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_programme` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2018-07-06T16:03:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.039970s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000603s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.017175s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.012292s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000361s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010523s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000373s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000345s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000343s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000376s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.013079s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.011146s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.011752s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.011914s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.013174s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-07-06T16:04:00+08:00 ] 127.0.0.1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.019644s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000459s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.028757s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.022155s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002218s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.025270s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000486s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000347s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000379s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000332s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.027998s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_news` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000643s ]
+SQL: SELECT * FROM `dr_news` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,15   [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2018-07-06T16:06:32+08:00 ] 127.0.0.1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.037484s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001070s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.027745s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.019303s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000747s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.018660s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000709s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000668s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000665s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000652s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.019300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_news` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `dr_news` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,15   [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2018-07-06T16:07:15+08:00 ] 127.0.0.1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.041148s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000798s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025183s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.011762s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001054s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.010652s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000389s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000332s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000318s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000316s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.013132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_news` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `dr_news` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,15   [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2018-07-06T16:08:30+08:00 ] 127.0.0.1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\phpStudy\WWW\xunda\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.042637s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001015s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.029463s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.014894s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000558s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.014408s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000442s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000790s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000361s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000433s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.030383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dr_news` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.001672s ]
+SQL: SELECT * FROM `dr_news` WHERE ( `type` = 1 ) ORDER BY sort desc,id desc LIMIT 0,15   [ RunTime:0.002430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-07-06T16:08:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.035297s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000777s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.023822s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.012402s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000529s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.012167s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000388s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000304s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000289s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000283s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.013088s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.014159s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.014394s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.012502s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 1 ) LIMIT 6   [ RunTime:0.000390s ]
+SQL: SELECT * FROM `dr_product` WHERE ( type = 2 ) LIMIT 5   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.014190s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type = 1 ) LIMIT 8   [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-07-06T16:08:39+08:00 ] 127.0.0.1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpStudy\WWW\xunda\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.041914s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000411s ]
+ERR: 1146:Table 'xunda.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.028192s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.019403s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000389s ]
+ERR: 1146:Table 'xunda.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.023246s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002137s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001781s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000829s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000859s ]
+ERR: 1146:Table 'xunda.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.023361s ]
+SQL: SELECT * FROM `dr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002781s ]
+

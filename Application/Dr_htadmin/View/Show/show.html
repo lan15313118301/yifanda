@@ -1,0 +1,76 @@
+<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<form class="form-horizontal" role="form" action="{:U("dr_htadmin/show/index")}" method="post" enctype="multipart/form-data">
+                                    <input type="hidden" name="action" value="edit" />
+                                    <input type="hidden" name="id" value="{$showid}" />
+									<!-- #section:elements.form -->
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 名称 : </label>
+										<div class="col-sm-9">
+											<input type="text" class="col-xs-10 col-sm-3" name="name" value="{$list.name}" disabled />
+										</div>
+									</div>
+									<link rel="stylesheet" href="/Public/dr_htadmin/kindeditor-4.1.10/themes/default/default.css" />
+                                <link rel="stylesheet" href="/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.css" />
+                                <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/kindeditor.js"></script>
+                                <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/lang/zh_CN.js"></script>
+                                <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.js"></script>
+                                <style>
+                                .ke-dialog-body input {
+                                    font-size: 12px;
+                                    padding: 0px
+                                }
+                                </style>
+                                <div class="space-4"></div>
+                                <div class="form-group">
+                                  <label class="col-sm-2 control-label no-padding-right" for="form-field-1-1"> 内容 : </label>
+                                  <div class="col-sm-9"> 
+                                    <script>
+                                        KindEditor.ready(function(K) {
+                                            var editor1 = K.create('textarea[name="content[]"]', {
+                                            cssPath : '/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.css',
+                                            uploadJson : '{:U("dr_htadmin/show/uploadphoto?type=thumb")}',
+                                            fileManagerJson : '__URL__/mannex/',
+                                            allowFileManager : true,
+                                            afterCreate : function() {
+                                            var self = this;
+                                            K.ctrl(document, 13, function() {
+                                                self.sync();
+                                                K('form[name=vsize1]')[0].submit();
+                                            });
+                                            K.ctrl(self.edit.doc, 13, function() {
+                                                self.sync();
+                                                K('form[name=vsize1]')[0].submit();
+                                            });
+                                            }
+                                        });
+                                        prettyPrint();
+                                        });
+                                    </script>
+                                    <textarea name="content[]" class="col-xs-10" style="height:360px;visibility:hidden;">{$list.content.0}</textarea>
+                                  </div>
+                                </div>
+                                
+                                    
+                                   
+                                    
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-2 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="ace-icon fa fa-check bigger-110"></i>
+												提 交
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												重 置
+											</button>
+										</div>
+									</div>
+
+									<div class="hr hr-24"></div>
+								</form>
+							</div><!-- /.col -->
+						</div>

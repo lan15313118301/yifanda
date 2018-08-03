@@ -1,0 +1,37 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>解决方案</h3>
+    <div class="bty">
+		<img src="__PUBLIC__/mobile/img/programmebg.jpg" width="640" height="202" alt="banner">
+	</div>
+    <ul>
+          <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=1')}">教育集团解决方案</a></li>
+          <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=2')}">医联体解决方案</a></li>
+          <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=3')}">医院运营管理解决方案</a></li>
+          <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=4')}">政府解决方案</a></li>
+          <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=5')}">DRG解决方案</a></li>  
+          <li style="background:none">&nbsp;</li>
+</ul>
+
+  </div>
+  
+</section>
+
+<section> 
+    <div class="programme">
+    	<ul>
+        <!--[volist name="list" id="v"]-->
+        	<li> <a href="{:U('programme/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+              <div> <span class="hua"><font>+</font></span> <span class="tit"><a href="{:U('programme/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+                <span class="time"><a href="{:U('programme/show?id='.$v['id'].'')}">查看详情</a></span> </div>
+            </li>
+        <!--[/volist]-->      
+      </ul>
+    <div class="page">{$page}</div>
+  </div>
+  </section>
+<!--[include file="Public:footer" /]-->

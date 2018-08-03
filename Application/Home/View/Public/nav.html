@@ -1,0 +1,25 @@
+<div class="ernav">
+    	<span style="line-height:22px; height:auto; padding:20px 0">产品分类<br>PRODUCTS</span>
+        	<ul>
+              <!--[volist name="producttype" id="v"]-->
+             	<li <!--[php]-->if($type == $v["id"]) echo "class='hover'";<!--[/php]-->><a href="{:U("product/index?type=".$v['id']."")}">{$v.name}</a></li>
+              <!--[/volist]-->
+            </ul>
+
+          <img src="__IMG__/leftnavbg.jpg">
+          
+          <span>联系我们</span>
+          <div>
+          	<img src="__IMG__/leftnavimg.jpg">
+        	北京中瑞加尔科技有限公司<br>
+            售前咨询：010-80217822<br>
+            售前咨询：13311562894<br>
+            QQ :  2838404525<br>
+            QQ :  1837305866<br>
+            售后服务：010-80217822<br>
+            客服邮箱：<br>
+            zhongruijiaer@163.com<br>
+            地址：北京大兴安定工业区
+		  </div>
+          <img src="__IMG__/leftnavbg.jpg">
+     </div>

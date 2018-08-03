@@ -1,0 +1,55 @@
+<!--[include file="Public:header" /]-->
+
+<div class="video">
+  <div class="w_auto">
+    <div class="headnav">
+      <ul>
+        <li><a title="数字沙盘视频" href="{:U('video/index?type=1')}" <!--[if condition="$type == 1"]-->class="on"<!--[/if]-->>数字沙盘视频</a></li>
+        <li><a title="展览展示视频" href="{:U('video/index?type=2')}" <!--[if condition="$type == 2"]-->class="on"<!--[/if]-->>展览展示视频</a></li>
+        <li><a title="文博馆视频" href="{:U('video/index?type=3')}" <!--[if condition="$type == 3"]-->class="on"<!--[/if]-->>文博馆视频</a></li>
+        <li><a title="舞美演出视频" href="{:U('video/index?type=4')}" <!--[if condition="$type == 4"]-->class="on"<!--[/if]-->>舞美演出视频</a></li>
+        <li><a title="企业宣传视频" href="{:U('video/index?type=5')}" <!--[if condition="$type == 5"]-->class="on"<!--[/if]-->>企业宣传视频</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="mainbody">
+      <div class="w_auto7">
+        <div class="link">
+          <p class="title">{$typename}</p>
+          <span>
+          <a href="__APP__/">首页</a> ＞ 
+          <a href="{:U('video/index')}">视频资料</a> ＞ 
+          <a href="{:U('news/index?type='.$data['type'].'')}">{$typename}</a> ＞
+          {$data.name}
+          </span> 
+          </div>
+        <div class="video_read">
+          <h1>{$data.name}</h1>
+          <div class="sp">
+            {$data.content}
+          </div>
+          <div class="lianjie">
+            <div class="nps">
+              <p>上一篇：<!--[if condition="$next"]--><a href="{:U("video/show?id=$next[id]")}">{$next.name}</a><!--[else/]-->没有了<!--[/if]--></p>
+              <p>下一篇：<!--[if condition="$prev"]--><a href="{:U("video/show?id=$prev[id]")}">{$prev.name}</a><!--[else/]--> 没有了<!--[/if]--></p>
+            </div>
+            <div class="shares"> 
+              <!-- JiaThis Button BEGIN -->
+              <div class="jiathis_style_24x24"> <a class="jiathis_button_qzone" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> <a class="jiathis_button_tsina" title="分享到微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> <a class="jiathis_button_tqq" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> <a class="jiathis_button_weixin" title="分享到微信"><span class="jiathis_txt jtico jtico_weixin"></span></a> <a class="jiathis_button_renren" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>  </div>
+              <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1385382735329652" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script> 
+              <!-- JiaThis Button END --> 
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="fanye">
+          <div class="page">
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

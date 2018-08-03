@@ -1,0 +1,585 @@
+[ 2016-12-23T03:42:16+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_company' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_company`
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_company' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:42:59+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:43:17+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:43:20+08:00 ] ::1 /ny_htadmin/company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `ny_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_icolor`
+SQL: SELECT * FROM `ny_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_icolor` 
+SQL: SHOW COLUMNS FROM `ny_type` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_type`
+SQL: SELECT * FROM `ny_type` ORDER BY sort desc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_type` ORDER BY sort desc 
+SQL: SHOW COLUMNS FROM `ny_picture` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_picture`
+SQL: SELECT * FROM `ny_picture` ORDER BY id asc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_picture` ORDER BY id asc 
+SQL: SHOW COLUMNS FROM `ny_subject` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_subject`
+SQL: SELECT * FROM `ny_subject` ORDER BY id asc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_subject` ORDER BY id asc 
+NOTIC: [8] Undefined variable: jurisdiction D:\phpStudy\WWW\Application\Ny_htadmin\Controller\BaseController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ny_enroll` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_enroll`
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Application\Ny_htadmin\Controller\CompanyController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:43:21+08:00 ] ::1 /ny_htadmin/company/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_icolor`
+SQL: SELECT * FROM `ny_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_icolor` 
+SQL: SHOW COLUMNS FROM `ny_type` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_type`
+SQL: SELECT * FROM `ny_type` ORDER BY sort desc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_type` ORDER BY sort desc 
+SQL: SHOW COLUMNS FROM `ny_picture` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_picture`
+SQL: SELECT * FROM `ny_picture` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_picture` ORDER BY id asc 
+SQL: SHOW COLUMNS FROM `ny_subject` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_subject`
+SQL: SELECT * FROM `ny_subject` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_subject` ORDER BY id asc 
+NOTIC: [8] Undefined variable: jurisdiction D:\phpStudy\WWW\Application\Ny_htadmin\Controller\BaseController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\68e00ea49dd9bc78c23746e2bfb1380d.php 第 190 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\68e00ea49dd9bc78c23746e2bfb1380d.php 第 198 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\68e00ea49dd9bc78c23746e2bfb1380d.php 第 206 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\68e00ea49dd9bc78c23746e2bfb1380d.php 第 244 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:43:27+08:00 ] ::1 /ny_htadmin/company/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ny_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_icolor`
+SQL: SELECT * FROM `ny_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_icolor` 
+SQL: SHOW COLUMNS FROM `ny_type` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_type`
+SQL: SELECT * FROM `ny_type` ORDER BY sort desc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_type` ORDER BY sort desc 
+SQL: SHOW COLUMNS FROM `ny_picture` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_picture`
+SQL: SELECT * FROM `ny_picture` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_picture` ORDER BY id asc 
+SQL: SHOW COLUMNS FROM `ny_subject` [ RunTime:0.002001s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_subject`
+SQL: SELECT * FROM `ny_subject` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_subject` ORDER BY id asc 
+NOTIC: [8] Undefined variable: jurisdiction D:\phpStudy\WWW\Application\Ny_htadmin\Controller\BaseController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: INSERT INTO `ny_company` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('公司动�\�','','','公司动�\�','','公司动�\�','&lt;h1 style=&quot;font-family:\'Microsoft YaHei\', Tahoma, Verdana, Simsun;font-weight:lighter;color:#B33B3A;font-size:24px;background-color:#FFFFFF;&quot;&gt;\r\n	公司动�\�\r\n&lt;/h1&gt;',1482435807) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:43:29+08:00 ] ::1 /ny_htadmin/company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_icolor`
+SQL: SELECT * FROM `ny_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_icolor` 
+SQL: SHOW COLUMNS FROM `ny_type` [ RunTime:0.003001s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_type`
+SQL: SELECT * FROM `ny_type` ORDER BY sort desc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_type` ORDER BY sort desc 
+SQL: SHOW COLUMNS FROM `ny_picture` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_picture`
+SQL: SELECT * FROM `ny_picture` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_picture` ORDER BY id asc 
+SQL: SHOW COLUMNS FROM `ny_subject` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_subject`
+SQL: SELECT * FROM `ny_subject` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_subject` ORDER BY id asc 
+NOTIC: [8] Undefined variable: jurisdiction D:\phpStudy\WWW\Application\Ny_htadmin\Controller\BaseController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ny_enroll` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_enroll`
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ny_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ny_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\1955e4023f2970d68a2ffa2bf0155a1b.php 第 204 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:43:33+08:00 ] ::1 /ny_htadmin/company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ny_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_icolor`
+SQL: SELECT * FROM `ny_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_icolor` 
+SQL: SHOW COLUMNS FROM `ny_type` [ RunTime:0.003000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_type`
+SQL: SELECT * FROM `ny_type` ORDER BY sort desc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_type' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_type` ORDER BY sort desc 
+SQL: SHOW COLUMNS FROM `ny_picture` [ RunTime:0.003001s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_picture`
+SQL: SELECT * FROM `ny_picture` ORDER BY id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_picture' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_picture` ORDER BY id asc 
+SQL: SHOW COLUMNS FROM `ny_subject` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_subject`
+SQL: SELECT * FROM `ny_subject` ORDER BY id asc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_subject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_subject` ORDER BY id asc 
+NOTIC: [8] Undefined variable: jurisdiction D:\phpStudy\WWW\Application\Ny_htadmin\Controller\BaseController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ny_enroll` [ RunTime:0.002000s ]
+ERR: 1146:Table 'nengyuan.ny_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_enroll`
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ny_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ny_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Ny_htadmin\1955e4023f2970d68a2ffa2bf0155a1b.php 第 204 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:43:35+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:43:36+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Company
+
+[ 2016-12-23T03:44:41+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CompanyController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\CompanyController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 1   [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Home/View/Company/index.html
+
+[ 2016-12-23T03:44:46+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CompanyController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\CompanyController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 1   [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/Company/index.html
+
+[ 2016-12-23T03:45:35+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CompanyController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\CompanyController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:45:49+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_patent` [ RunTime:0.002001s ]
+ERR: 1146:Table 'nengyuan.ny_patent' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_patent`
+SQL: SELECT * FROM `ny_patent` ORDER BY id desc LIMIT 0,10   [ RunTime:0.001000s ]
+ERR: 1146:Table 'nengyuan.ny_patent' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_patent` ORDER BY id desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:45:55+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:46:28+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:46:31+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:46:51+08:00 ] ::1 /company/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:46:57+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-23T03:47:10+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ny_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_patent` [ RunTime:0.003001s ]
+ERR: 1146:Table 'nengyuan.ny_patent' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ny_patent`
+SQL: SELECT * FROM `ny_patent` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+ERR: 1146:Table 'nengyuan.ny_patent' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ny_patent` ORDER BY id desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-23T03:47:14+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_product` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ny_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_news` ORDER BY sort desc,id desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ny_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ny_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

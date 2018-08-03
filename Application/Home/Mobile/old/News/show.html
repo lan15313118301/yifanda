@@ -1,0 +1,25 @@
+<!--[include file="Public:header" /]-->
+<section> 
+  <div class="t-ctn b-ctn">
+    <h3 style="font-size:30px">{$typename}</h3>
+    <ul>
+        <li <!--[if condition="$data.type == '1'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=1')}">会计资讯</a></li>
+        <li <!--[if condition="$data.type == '2'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=2')}">学历资讯</a></li>
+        <li <!--[if condition="$data.type == '3'"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=3')}">认证资讯</a></li>
+    </ul>
+  </div>
+  
+</section>
+<div style="clear:both"></div>
+<section> 
+  <div class="news_show inner">
+	
+    <span class="title">{$data.name}</span>
+    <span class="time">来源：{$data.author}　　　　日期：{$data.addtime|date='Y-m-d',###}</span>
+    <div class="show">
+    	{$data.content}
+    </div>
+</div>
+</section>
+
+<!--[include file="Public:footer" /]-->

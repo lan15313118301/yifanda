@@ -1,0 +1,53 @@
+<!--[include file="Public:header" /]-->
+
+<div class="recruit">
+  <div class="w_auto">
+    <div class="mainbody">
+      <div class="leftnav">
+        <ul>
+          <li><a title="联系我们" href="{:U('contactus/index')}">联系我们</a></li>
+          <li class="on"><a title="人才招聘" href="{:U('contactus/job')}">人才招聘</a></li>
+        </ul>
+      </div>
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ <a href="{:U('contactus/index')}">联系我们</a> ＞ 人才招聘 </span> </div>
+          <div class="clearfix"></div>
+          <div class="bt">
+            <p class="title">人才招聘</p>
+            <p class="en"></p>
+            <div class="yy"></div>
+          </div>
+          <ul>
+            <!--[volist name="list" id="v"]-->
+            <li class="li1">
+              <div class="oo">{$v.name}</div>
+              <div class="cc">
+                <p class="ll">岗位职责：</p>
+                <div class="nn">
+                  <p class="zhize">{$v.content}</p>
+                </div>
+              </div>
+              <div class="dd">
+                <p class="ll">工作地点：</p>
+                <p class="nn">{$v.address}</p>
+                <div class="clearfix"></div>
+                <p class="ll">招聘人数：</p>
+                <p class="nn">{$v.number}</p>
+              </div>
+            </li>
+            <!--[/volist]-->
+          </ul>
+          <div class="beizhu">
+            <p class="xm">上述岗位有意者请联系我司人力资源部:<br>
+              深圳：0755-61568866转8033 王小姐<br>
+              上海：021-54302511转825 程小姐<br>
+              或将简历发至此邮箱：szhr@canyon-model.com 并注明申请职位名称，我们会第一时间阅读你的简历并及时回复</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

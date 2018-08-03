@@ -1,0 +1,80 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <div class="bty"> <img src="__PUBLIC__/mobile/img/contactusbg.jpg" width="640" height="202" alt="banner"> </div>
+    <ul>
+
+      <li><a href="{:U('contactus/careers')}">招贤纳士</a></li>
+    </ul>
+  </div>
+</section>
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn t-ctn2 b-ctn3">
+    <div class="ertitle"> <b>加入我们</b> Contact Information</div>
+    <!--标题-->
+    <div class="support content" style="margin-top:10px">
+      <ul>
+        <div class="r">
+        <ul>
+          <!--[volist name="list" id="v"]-->
+          <li> <span class="tit">{$v.name}</span>
+            <div class="cont"> 
+            <span class="title">职位要求：</span>
+            	<p>    
+{$v.summary}
+</p>
+<span class="title">职位职责：</span>
+<p>{$v.content}</p>
+<font>请将您的简历发送至：evatarbj@evatarchina.com<br>
+</font>
+              <img src="__IMG__/top.jpg" />
+              </div>
+          </li>
+          <!--[/volist]-->
+          
+          
+          
+          
+        </ul>
+      </div>
+      </ul>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+	$(function() {
+		$(".r ul li").click(function(){
+			if($(this).children('div').css('display') == "none"){
+				$(this).children('span.tit').css("background-image","url(__IMG__/jian.png)");
+				$(this).children('div').slideDown();	
+			}
+		});
+		
+		$(".cont img").click(function(){
+			if($(this).parent('div').css('display') == "block"){
+				$(this).parent('div').slideUp();	
+				$(this).parent().prev().css("background-image","url(__IMG__/jia.png)");
+			}
+		});
+	})
+</script> 
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".side ul li").hover(function(){
+		$(this).find(".sidebox").stop().animate({"width":"140px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#357DB8"})	
+	},function(){
+		$(this).find(".sidebox").stop().animate({"width":"49px"},200).css({"opacity":"0.8","filter":"Alpha(opacity=80)","background":"#000"})	
+	});
+	
+});
+
+//回到顶部
+function goTop(){
+	$('html,body').animate({'scrollTop':0},600);
+}
+</script> 
+<!--[include file="Public:footer" /]-->

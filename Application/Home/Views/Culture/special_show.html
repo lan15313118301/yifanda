@@ -1,0 +1,74 @@
+<!--[include file="Public:header" /]-->
+<script type="text/javascript">
+$(document).ready(function(e) {
+	$('#element_id2').cxScroll();
+});
+</script>
+<div class="dynamic">
+  <div class="w_auto">
+    <div class="mainbody">
+      <!--[include file="Culture:nav" /]-->
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ <a href="{:U('culture/index')}">企业文化</a> ＞ <a href="{:U('culture/special')}">专题活动</a> ＞ {$data.name}</span> </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="new_read">
+          <h1>{$data.name}</h1>
+          <div class="new_read_mbx"><span>发布时间：{$data.addtime|date='Y-m-d',###}</span><span>浏览：{$data.click}</span></div>
+          <!--startprint1--> 
+          <!--打印内容开始-->
+          {$data.content}
+          <p><br>
+          </p>
+          <!--打印内容结束--> 
+          <!--endprint1-->
+          <div class="lianjie">
+            <div class="nps">
+              <p>上一篇：<!--[if condition="$next"]--><a href="{:U("culture/special_show?id=$next[id]")}">{$next.name}</a><!--[else/]-->没有了<!--[/if]--></p>
+              <p>下一篇：<!--[if condition="$prev"]--><a href="{:U("culture/special_show?id=$prev[id]")}">{$prev.name}</a><!--[else/]-->没有了<!--[/if]--></p>
+            </div>
+            <div class="shares"> 
+              <!-- JiaThis Button BEGIN -->
+              <div class="jiathis_style_24x24"> <a class="jiathis_button_qzone" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> <a class="jiathis_button_tsina" title="分享到微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> <a class="jiathis_button_tqq" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> <a class="jiathis_button_weixin" title="分享到微信"><span class="jiathis_txt jtico jtico_weixin"></span></a> <a class="jiathis_button_renren" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>  </div>
+              <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1385382735329652" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script> 
+              <!-- JiaThis Button END -->
+              <div class="clearfix"></div>
+              <p><a onclick="history.go(-1)">返回</a><a onclick="preview(1)">打印此页</a><a href="" target="_blank">给我们发邮件</a></p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="bottomer">
+          <div class="links">
+            <p class="xgtj">相关推荐</p>
+          </div>
+          <div class="cxscroll" id="element_id2">
+            <div class="box">
+              <ul id="minthumb2" class="list">
+                <!--[volist name="more" id="v"]-->
+                <li>
+                  <div class="mx"> <a href="{:U('culture/special_show?id='.$v['id'].'')}" title="{$v.name}"><img src="{$v.thumb}" alt="{$v.name}" width="162" height="95"></a>
+                    <p class="title">{$v.name}</p>
+                    <div class="casename"><a href="{:U('culture/special_show?id='.$v['id'].'')}" title="{$v.name}">新闻中心-<b>优秀表彰</b></a></div>
+                    <div class="date"><a href="{:U('culture/special_show?id='.$v['id'].'')}">{$v.addtime|date='Y-m-d',###}</a></div>
+                    <div class="clearfix"></div>
+                  </div>
+                </li>
+                <!--[/volist]-->
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div class="zuoyou">
+              <div class="zuo next"></div>
+              <div class="you prev"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!--[include file="Public:footer" /]-->

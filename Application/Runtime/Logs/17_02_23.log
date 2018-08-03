@@ -1,0 +1,1683 @@
+[ 2017-02-23T00:00:18+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_company` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_company' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_company`
+SQL: SELECT * FROM `zr_company` ORDER BY sort desc,id desc LIMIT 0,1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_company' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_company` ORDER BY sort desc,id desc LIMIT 0,1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:01:05+08:00 ] ::1 /zr_htadmin/message/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.004001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_message` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zr_enroll` [ RunTime:0.004001s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_enroll`
+SQL: SELECT * FROM `zr_message` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 202 行.
+NOTIC: [8] Use of undefined constant tel - assumed 'tel' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 203 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 204 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 205 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 206 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:01:29+08:00 ] ::1 /zr_htadmin/message/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_message` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zr_enroll` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_enroll`
+SQL: SELECT * FROM `zr_message` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 202 行.
+NOTIC: [8] Use of undefined constant tel - assumed 'tel' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 203 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 204 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 205 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\42480324ef319749aabc92a821fbf558.php 第 206 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:01:30+08:00 ] ::1 /zr_htadmin/cooperation/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cooperation
+
+[ 2017-02-23T00:03:21+08:00 ] ::1 /zr_htadmin/cooperation/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: SHOW COLUMNS FROM `zr_enroll` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_enroll`
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc 
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Application\Zr_htadmin\Controller\CooperationController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:03:44+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 72 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 186 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 193 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 246 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 254 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 292 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:05:08+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 72 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 186 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\2ed8a21af76ff59b5ea16ac6fd34ebfd.php 第 193 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:05:20+08:00 ] ::1 /zr_htadmin/upload/upload/type/thumb.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2017-02-23T00:05:22+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779522) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779522)
+
+[ 2017-02-23T00:05:23+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779523) [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779523)
+
+[ 2017-02-23T00:05:24+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779524) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779524)
+
+[ 2017-02-23T00:05:25+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779525) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779525)
+
+[ 2017-02-23T00:05:26+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779526) [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779526)
+
+[ 2017-02-23T00:05:27+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779527) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779527)
+
+[ 2017-02-23T00:05:28+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.005000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779528) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779528)
+
+[ 2017-02-23T00:05:29+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779529) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779529)
+
+[ 2017-02-23T00:05:30+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779530) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779530)
+
+[ 2017-02-23T00:05:31+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779531) [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779531)
+
+[ 2017-02-23T00:05:32+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_cooperation`
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779532) [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_cooperation' doesn't exist
+ [ SQL语句 ] : INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`top`,`sales`,`recommend`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','','','','',1487779532)
+
+[ 2017-02-23T00:05:57+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779557) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:05:57+08:00 ] ::1 /Public/jc_htadmin/css/bootstrap.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:05:57+08:00 ] ::1 /Public/jc_htadmin/css/font-awesome.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:05:57+08:00 ] ::1 /Public/jc_htadmin/css/ace-fonts.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:05:58+08:00 ] ::1 /Public/jc_htadmin/css/ace.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:05:58+08:00 ] ::1 /Public/jc_htadmin/css/ace-rtl.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:05:58+08:00 ] ::1 /Public/jc_htadmin/css/ace.onpage-help.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:00+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.002000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779560) [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:06:01+08:00 ] ::1 /zr_htadmin/cooperation/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_enroll` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_enroll`
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=2 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:06:02+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779562) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:03+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779563) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:04+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779564) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:06:05+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779565) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:06+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779566) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:07+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779567) [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:06:08+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779568) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:09+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003001s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779569) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /zr_htadmin/cooperation/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+SQL: INSERT INTO `zr_cooperation` (`name`,`author`,`type`,`key`,`thumb`,`summary`,`content`,`addtime`) VALUES ('合作伙伴','','','','/Uploads/20170223/1487779520_2662.jpg','','',1487779571) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/bootstrap.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/font-awesome.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/ace-fonts.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/ace.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/ace-rtl.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:11+08:00 ] ::1 /Public/jc_htadmin/css/ace.onpage-help.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-23T00:06:13+08:00 ] ::1 /zr_htadmin/cooperation/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_icolor`
+SQL: SELECT * FROM `zr_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zr_icolor` 
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_enroll` [ RunTime:0.003000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zr_enroll`
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=11 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=11 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=10 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=10 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=9 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=9 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=8 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=8 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=7 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=7 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=6 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=6 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=5 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=5 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=4 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=4 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=3 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=2 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhongrui.zr_enroll' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `zr_enroll` WHERE ( tid=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Zr_htadmin\73d59c0bc391d10861354a9742ae2f56.php 第 200 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:07:50+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:08:26+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:08:33+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 42 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:09:15+08:00 ] ::1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_product` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 20 行.
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:09:42+08:00 ] ::1 /product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_product` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\ProductController.class.php 第 20 行.
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:09:44+08:00 ] ::1 /industry/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndustryController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_industry` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 11 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_industry` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 17 行.
+SQL: SELECT * FROM `zr_industry` ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:09+08:00 ] ::1 /industry/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndustryController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_industry` [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 11 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_industry` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 17 行.
+SQL: SELECT * FROM `zr_industry` ORDER BY sort desc,id desc LIMIT 0,9   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\IndustryController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:10:14+08:00 ] ::1 /download/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\DownloadController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_download` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_download` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 21 行.
+SQL: SELECT * FROM `zr_download` ORDER BY sort desc,id desc LIMIT 0,20   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:10:16+08:00 ] ::1 /download/show/id/11.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\DownloadController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_download` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_download` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:36+08:00 ] ::1 /download/show/id/11.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\DownloadController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_download` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_download` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\acc99c161f72b8eeec53793f43f97e35.php 第 42 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:37+08:00 ] ::1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_news` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 21 行.
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,20   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T00:10:39+08:00 ] ::1 /download/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\DownloadController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_download` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_download` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 21 行.
+SQL: SELECT * FROM `zr_download` ORDER BY sort desc,id desc LIMIT 0,20   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\DownloadController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:41+08:00 ] ::1 /news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 15 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zr_news` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 21 行.
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,20   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:46+08:00 ] ::1 /news/show/id/14.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\NewsController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\Application\Home\Controller\NewsController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\8b2947d1e816c45f0ac0efa4337faa91.php 第 42 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-23T00:10:50+08:00 ] ::1 /message/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 42 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T00:10:52+08:00 ] ::1 /contactus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\4f44d0784327813e92b82063cfcc6426.php 第 40 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T19:58:51+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T19:59:41+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T19:59:42+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T20:20:40+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T21:34:17+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,65 @@
+<!--[include file="Public:header" /]-->
+
+<div class="programmebg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="case inner">
+  <div class="ernav"> 
+  <span>案例展示</span>
+    <ul>            
+      <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=1')}">华北地区</a></li>
+      <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=2')}">东北地区</a></li>
+      <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=3')}">西南地区</a></li>
+      <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=4')}">华东地区</a></li>
+      <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=5')}">华南地区</a></li>
+      <li <!--[if condition="$type == 6"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=6')}">华中地区</a></li>
+      <li <!--[if condition="$type == 7"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=7')}">西北地区</a></li>
+    </ul>
+    
+    <!--<span style="margin-top:8px">联系我们</span>
+        <img src="__IMG__/tel.jpg">
+        <div>
+        	北京嘉乾阁家具有限公司<br>
+            电话:010-85791899<br>
+            手机（微信）：15652997347<br>
+            联系人：王经理<br>
+            邮箱：beijingjiaqiange@163.com<br>
+            网址:www.jiaqiange.com<br>
+            工厂地址：北京顺义临河村<br>
+            直营中心：北京朝阳区高碑店新村一区4-1
+        </div>--> 
+  </div>
+  <div class="erright">
+    <div class="top"> <span>案例展示</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('programme/index')}">案例展示</a> >
+        案例展示 </div>
+    </div>
+    <div class="programmenav">
+      <ul>
+            <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=1')}">华北地区</a></li>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=2')}">东北地区</a></li>
+            <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=3')}">西南地区</a></li>
+            <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=4')}">华东地区</a></li>
+            <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=5')}">华南地区</a></li>
+            <li <!--[if condition="$type == 6"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=6')}">华中地区</a></li>
+            <li <!--[if condition="$type == 7"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=7')}">西北地区</a></li>
+		</ul>
+    </div>
+    <div class="content">
+      <ul>
+		<!--[volist name="list" id="v"]-->
+        	<li> 
+            	<a href="{:U('programme/cases_show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a> 
+                <span class="tit"><a href="{:U('programme/cases_show?id='.$v['id'].'')}">{$v.name}</a></span> 
+            </li>
+        <!--[/volist]-->
+        
+
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

@@ -1,0 +1,51 @@
+<!--[include file="Public:header" /]-->
+<script type="text/javascript">
+$(document).ready(function(e) {
+	$('#element_id').cxScroll();
+//	$('#minthumb img').click(function(){
+//		$('#minthumb img').removeClass('hover4');
+//		var src = $(this).attr('src');
+//		$(this).addClass('hover4');	
+//		$('#maxthumb').attr('src', src);
+//	});
+	$('#minthumb img').eq(0).click();
+	//$('#element_id2').cxScroll();
+});
+</script>
+
+<div class="witness">
+  <div class="w_auto">
+    <div class="mainbody">
+      <!--[include file="aboutus:nav" /]-->
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ <a href="{:U('aboutus/index')}">关于润朗佰嘉</a> ＞ 历史见证 </span> </div>
+          <div class="clearfix"></div>
+          <div class="bt">
+            <p class="title">历史见证</p>
+            <p class="en">Witness History</p>
+          </div>
+          <div class="case_img"> <img onmouseover="KeleyiImgNext_max(this)" src="" alt="历史见证-img" id="maxthumb" width="760" height="422" style="cursor: url(&quot;web_file/images/cursor_left.cur&quot;), auto;">
+            <div id="tpmsa" class="tpms"></div>
+          </div>
+          <div class="cxscroll" id="element_id">
+            <div class="next leftjt"></div>
+            <div class="box">
+              <ul id="minthumb" class="list">
+                <!--[volist name="list" id="v"]-->
+                <li><img src="{$v.thumb}" data-desc="{$v.name}" onclick="showPics_max(this)" alt="案例图" width="145" height="97" class=""></li>
+                <!--[/volist]-->
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div class="prev rightjt"></div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--[include file="Public:footer" /]-->

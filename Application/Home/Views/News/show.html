@@ -1,0 +1,36 @@
+<!--[include file="Public:header" /]-->
+<div class="newsbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="service inner">
+	<div class="ernav">
+    	<span>新闻资讯</span>
+        <ul>
+        	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=1')}">行业新闻</a></li>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=2')}">公司新闻</a></li>
+            <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=3')}">媒体报道</a></li>
+        </ul>
+        
+        
+    </div>
+     <div class="erright">
+    	<div class="top">
+        	<span>{$typename}</span>
+            <div class="position">
+            	您当前位置：<a href="__APP__/">首页</a> > 
+                <a href="{:U('news/index')}">新闻资讯</a> >
+                <a href="{:U('news/index?type='.$type.'')}">{$typename}</a> >
+                {$data.name}
+            </div>
+        </div>
+        
+        <div class="content">
+        	<span class="t">{$data.name}</span>
+            <span class="t1">来源：{$data.author}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间：{$data.addtime|date='Y-m-d',###}</span>
+			{$data.content}        	
+        </div>
+     </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

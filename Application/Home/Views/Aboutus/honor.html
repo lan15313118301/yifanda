@@ -1,0 +1,35 @@
+<!--[include file="Public:header" /]-->
+
+<div class="honor">
+  <div class="w_auto">
+    <div class="mainbody">
+      <!--[include file="aboutus:nav" /]-->
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ <a href="{:U('aboutus/index')}">关于润朗佰嘉</a> ＞ 荣誉墙 </span> </div>
+          <div class="clearfix"></div>
+          <div class="bt">
+            <p class="title">荣誉墙</p>
+            <p class="en">Honor Wall</p>
+          </div>
+          <img src="__IMG__/ry_img.jpg" alt="荣誉墙" width="760" height="207" class="img">
+          <ul>
+          <!--[volist name="list" id="v"]-->
+            <li>
+              <div class="year">{$v.name}</div>
+              <dl>
+                <dd>
+                 {$v.content}
+                </dd>
+              </dl>
+              <div class="clearfix"></div>
+            </li>
+            <!--[/volist]-->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

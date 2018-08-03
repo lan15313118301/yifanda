@@ -1,0 +1,83 @@
+/* 
+    Created on : 2014-2-11, 15:44:10
+    Author     : jue
+*/
+
+body{color: #333;font-family: "Microsoft YaHei";font-size: 13px;}
+a{ text-decoration:none;color: #0C6A99;}
+a:hover{color: #013330;}
+*{margin: 0px;padding: 0px;}
+.head{height: 64px;position: relative;background-image: url(/Public/admin/img/blue_03.gif);}
+.userinfo{float: right;margin-top: 10px;margin-right: 30px;}
+.userinfo .ub{display: inline-block;padding: 2px 10px;color: #FFF;cursor: pointer;}
+.userinfo .ub:hover{color: #FFF;background-color: #999;border-radius: 3px;}
+.hbc{height: 18px;width: 100%;position: absolute;top: 46px;background-image: url(/Public/admin/img/testx_03.png);}
+.logo{display: inline-block;float: left;height: 35px;min-width: 100px;max-width: 200px;margin-top: 5px;margin-left: 20px;background-image: url(/Public/admin/img/logo.png);}
+
+.leftmenu{float: left;width: 150px;min-height: 630px;background-image: url(/Public/admin/img/testy_03.gif);background-repeat: repeat-y;
+background-color: #EEE;border-right: 1px solid #999;border-bottom: 1px solid #999;
+}
+.rightcontent{margin: 0px 10px 10px 160px;padding-top: 10px;}
+.contents{border: 1px solid #CCC;border-radius: 1px;background-color: #eee;padding: 10px;}
+.menudata{margin-left: 15px;text-indent: 5px;}
+.menudata .mds{font-size: 15px;line-height: 30px;background-color: #eee;border-top: 1px solid #ddd;border-bottom: 1px solid #f5f5f5;cursor: default;}
+.menudata .mdst{font-size: 20px;height: 40px;line-height: 40px;text-indent: 5px;}
+.menudata .mds b{font-size: 15px;color: #111;margin-right: 7px;}
+.footer{clear: both;height: 30px;line-height: 30px;margin-top: 10px;text-align: center;border-top: 2px solid #ccc;background-color: #eee;}
+.mr3{margin-left: 10px;}
+
+.submenu{list-style: none;}
+.submenu a{color: #444;display: block;width: 135px;font-size: 12px;}
+.submenu li{display: block;line-height: 30px;border-top: 1px dotted #9DBDD6;margin-top: -1px;}
+
+.submenu li i{display: inline-block; margin-left: 11px;    margin-right: 4px;vertical-align: middle; height: 32px; border-left: 1px dotted #9DBDD6;}
+.submenu li i b{border-top: 1px dotted #9DBDD6;float: left;margin-top: 15px;margin-right: 0 !important;padding: 0;width: 7px;}
+
+.submenu .icon-double-angle-right{float: none;border: none;background-color: #EEE;font-size: 12px !important;left: -8px;
+                                  margin-right: 0 !important;margin-top: 15px;position: relative;top: 0;text-indent: 0;}
+.mdstitle{color:#444;font-weight: 100;line-height: 38px;background-color: #ddd;}
+
+.rcdata{border: 1px solid #eee;margin: 10px auto;padding: 0 0 0 10px;}
+.rcdata-rows{float: left;width: 33.3%;}
+.rcdata-rows-border{border: 1px solid #eee;min-height: 150px;margin-top: 10px;margin-right: 10px;}
+.clear{clear: both;}
+
+.leftmenu{background-image: none;}
+.menudata{margin-left: 0;}
+
+/* 基本设置 */
+.a-set ul{list-style: none;}
+.a-title{font-size: 18px;}
+.a-button{padding: 3px 10px;}
+.set-data{margin: 20px;line-height: 30px;}
+.set-input{height: 22px;line-height: 22px;}
+.a-set ul li label{display: inline-block;width: 200px;text-align: right;margin-right: 10px;}
+
+/* 栏目管理 */
+/*.a-ul-list{width: 100%;}
+.a-ul-list ul li{display: inline-block;border: 1px solid #eee;border-left: none;margin-top: -1px;margin-right: -1px;float: left;text-align: center;height: 25px;line-height: 25px;overflow: hidden;}
+.a-ul-list ul{height: 25px;}
+.a-ul-list ul:hover{background-color: #eee;}*/
+.datasubmenu{margin: 10px 0;}
+.menubutton{padding: 3px 10px;background-color: #eee;border: 1px solid #bbb;border-radius: 3px;color: #333;cursor: pointer;}
+.menubutton:hover{background-color: #ddd;}
+/*  */
+.a-t-vsize li{display: inline-block;border: 1px solid #eee;padding: 0px 30px;float: left;margin-left: -1px;cursor: pointer;}
+.a-t-vsize-hover{background-color: #eee;}
+
+.vsize1 li,.vsize2 li,.vsize3 li,.vsize4 li{
+    display: inline-block;width:90%;
+}
+.vsize1 li label,.vsize2 li label,.vsize3 li label,.vsize4 li label{
+    width: 100px !important;
+}
+
+/* slide group index */
+.slide-sg-thumb{margin: 2px 0;vertical-align: middle;width:50px;height:50px;}
+.slide-sg-content{width:13px;height:13px;background-image: url(/Public/admin/img/djia.png);}
+.slide-sg-content-all{width:13px;height:13px;background-image: url(/Public/admin/img/djia.png);}
+
+.leftmenu{-moz-user-select: none;-khtml-user-select: none;user-select: none;}
+
+.snsall{display: inline-block;text-align: center;width: 60px;}
+.snsall:hover{cursor: pointer;color: #9DBDD6;}

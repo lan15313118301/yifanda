@@ -1,0 +1,90 @@
+<!--[include file="Public:header" /]-->
+<script type='text/javascript'>
+            	$(function(){
+        			$('#myform').ajaxForm({
+        				success:  complete2, 
+        				dataType: 'json'
+        			});
+        			function complete2(data){
+        				if (data.val==1){
+        					alert(data.status);
+        					location.reload();	
+        				}
+        				
+        				if (data.val==2){
+        					alert("恭喜您，登录成功！");
+        					location.href='__APP__/';	
+        				}
+        				
+        			}
+        		});
+            </script>
+<div style="clear:both"></div>
+<section>
+  <div class="t-ctn b-ctn">
+  
+  </div>
+</section>
+<div class="enroll inner">
+    
+    <script src="__JS__/jquery.form.js"></script>
+    <form method="post" action="{:U('zhuce/denglu')}" enctype="multipart/form-data" id="myform">
+    <input type="hidden" name="action" value="add">
+    <div class="content">
+    	<span class="title">
+        	<b>会员登陆</b>Member Login
+        </span>
+    	<ul>
+        	<li style='margin:0 auto;float:none;'>
+            	<p style='color:red;font-weight:bold;'>请登录您的会员账号，在进行下一步操作！</p>
+            	<p>没有账号？<a href="{:U('Zhuce/index')}">立即注册</a></p>
+            </li>
+            <li>
+            	<div>
+                	<span class="cn">账号</span>
+                    <span class="en">Account</span>
+                </div>
+                <input type="text" name="username" placeholder='账号名/已经验证邮箱'>
+            </li>
+            <li>
+            	<div>
+                	<span class="cn">密码</span>
+                    <span class="en">Password</span>
+                </div>
+                <input type="password" name="password" placeholder='密码'>
+            </li>
+            <li>
+            	<div>
+                	<span class="cn">验证码</span>
+                    <span class="en">Verify</span>
+                </div>
+                <input type="text" name="verify" style='width:150px;'>
+               <img src="{:U('Zhuce/verifys')}" onclick="this.src=this.src+'?'+Math.random()" title="点击更换"/>
+            </li>
+            
+            <li class="font clear"><div></div>
+            	<a href="{:U('Zhuce/forget')}">忘记密码？</a>
+            </li>	
+             <li>
+            	<div>
+                </div>
+                <input type="submit" value="提交　　Register">
+            </li>
+        </ul>
+    </div>
+    </form>
+    
+	<div style="clear:both"></div>
+</div>
+
+<!--[include file="Public:footer" /]-->
+<!--[if condition="$key == 1"]-->
+    	<script type="text/javascript">
+			alert("没有查询到您的信息");
+		</script>
+    <!--[/if]-->
+    <!--[if condition="$key == 2"]-->
+    	<script type="text/javascript">
+			alert("审核尚未通过,如果您已转账请在24小时后查询,或者联系我们客服");
+		</script>
+    <!--[/if]-->

@@ -1,0 +1,38 @@
+<!--[include file="Public:header" /]-->
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3 style="font-size:30px">企业概况</h3>
+    <div class="bty"> <img src="__PUBLIC__/mobile/img/aboutusbg.jpg" width="640" height="202" alt="banner"> </div>
+    <!--[include file="Aboutus:nav" /]-->
+  </div>
+</section>
+<div style="clear:both"></div>
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn t-ctn2 b-ctn3 "> 
+  <div class="social">
+  	<span class="title" id="title1"> 社会责任 </span>
+    <div class="content">
+		<ul>
+        	<!--[volist name="list" id="v"]-->
+            	<!--[if condition="$i == 1"]-->
+                	
+                    <li class="one">
+                        <a href="{:U('aboutus/social_show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                        <span class="t"><a href="{:U('news/show?id='.$v['id'].'')}">{$v.name}</a> <font></font></span>
+                        <p>{$v.summary}</p>
+                        <a href="{:U('aboutus/social_show?id='.$v['id'].'')}"><span class="t2">阅读全文</span></a>
+                    </li>
+                <!--[else/]-->
+            		<li><a href="{:U('aboutus/social_show?id='.$v['id'].'')}">{$v.name}</a><span class="time">{$v.addtime|date='Y/m/d',###}</span></li>
+                <!--[/if]-->
+        	<!--[/volist]-->
+        </ul>
+        <div class="page">{$page}</div>
+	</div>
+  </div>
+</section>
+
+
+<!--[include file="Public:footer" /]-->

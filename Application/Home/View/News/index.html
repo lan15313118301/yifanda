@@ -1,0 +1,60 @@
+
+<!--[include file="Public:header" /]-->
+<div class="newsbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="news inner">
+	<div class="ernav">
+    	<span>行业快讯</span>
+        <ul>
+        	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=1')}">行业快讯</a></li>
+            
+        </ul>
+    </div>
+     <div class="erright">
+    	<div class="top">
+        	<span>
+            	{$typename}
+            </span>
+            <div class="position">
+            	
+            	您当前位置：<a href="__APP__/">首页</a> > 
+                <a href="{:U('news/index')}">行业快讯</a> >
+                {$typename}
+            </div>
+        </div>
+        
+        <div class="content">
+        	<ul>
+             <!--[volist name="list" id="v"]-->
+          <!--[if condition="$i == 1"]-->
+          <li class="top"> 
+              <a href="{:U('news/show?id='.$v['id'].'')}"><img src="{$v.thumb}"/></a>
+              <span class="tit"><a href="{:U('news/show?id='.$v['id'].'')}">{$v.name}</a></span>
+              <div class="cont"> 
+				<p>{$v.summary}...</p>
+              </div>
+              <a href="{:U('news/show?id='.$v['id'].'')}" class="xx">了解详情</a>
+          </li>
+          <!--[else/]-->
+          <li class="down"> 
+              <span class="time">{$v.addtime|date='Y-m-d',###}</span>
+              <a href="{:U('news/show?id='.$v['id'].'')}">{$v.name}</a>
+          </li>
+          <!--[/if]-->
+          <!--[/volist]-->
+            </ul>
+            <div class="page">{$page}</div>
+        </div>
+     </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->
+<script>
+    $('.navbar-nav .com4 a').addClass('current1');
+    $('.com5').on('click', function () {
+        console.log('111');
+        $('.com4 a').removeClass('current1');
+    })
+</script>

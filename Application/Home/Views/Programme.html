@@ -1,0 +1,45 @@
+<!--[include file="Public:header" /]-->
+
+<div class="programmebg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="programme inner">
+  <div class="ernav">
+    	<span>解决方案与案例</span>
+        <ul>            
+
+			<li><a href="{:U('programme/cases')}">经典案例</a></li>
+        </ul>
+    </div>
+  <div class="erright">
+    <div class="top"> <span>解决方案</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('programme/index')}">解决方案与案例</a> >
+        解决方案 </div>
+    </div>
+    <div class="programmenav">
+    	<ul>
+        	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=1')}">OES</a></li>
+        	<li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=2')}">DRG</a></li>
+        	<li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/index?type=3')}">HRP</a></li>
+        </ul>
+    </div>
+    <div class="content">
+      <ul>
+        
+        
+        <!--[volist name="list" id="v"]-->
+        	<li> <a href="{:U('programme/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+              <div> <span class="hua"><font>+</font></span> <span class="tit"><a href="{:U('programme/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+                <span class="time"><a href="{:U('programme/show?id='.$v['id'].'')}">查看详情</a></span> </div>
+            </li>
+        <!--[/volist]-->
+        
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

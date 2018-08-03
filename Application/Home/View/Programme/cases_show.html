@@ -1,0 +1,40 @@
+<!--[include file="Public:header" /]-->
+
+<div class="programmebg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="service inner">
+  <div class="ernav">
+    	<span>解决方案与案例</span>
+        <ul>            
+            <li><a href="{:U('programme/index')}">解决方案</a></li>
+			<li class="hover"><a href="{:U('programme/cases')}">经典案例</a></li>
+        </ul>
+    </div>
+  <div class="erright">
+    <div class="top"> <span>解决方案</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('programme/index')}">解决方案与案例</a> >
+        <a href="{:U('programme/cases?type='.$data[typename].'')}">{$typename}</a> > {$data.name} </div>
+    </div>
+    <div class="programmenav">
+    	<ul>
+            <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=1')}">华北地区</a></li>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=2')}">东北地区</a></li>
+            <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=3')}">华东地区</a></li>
+            <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=4')}">华南地区</a></li>
+            <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=5')}">华中地区</a></li>
+            <li <!--[if condition="$type == 6"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=6')}">西南地区</a></li>
+            <li <!--[if condition="$type == 7"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=7')}">西北地区</a></li>
+		</ul>
+    </div>
+    <div class="ertitle">
+        	<b>{$data.name}</b> {$data.enname}
+        </div>
+        <div class="content">
+        	{$data.content}
+        </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

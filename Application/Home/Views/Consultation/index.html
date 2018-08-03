@@ -1,0 +1,26 @@
+<!--[include file="Public:header" /]-->
+
+<div class="consultationbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="service inner">
+  <div class="ernav"> <span>咨询服务</span>
+     <ul>
+      <li <!--[if condition="$data.id == 14"]-->class="hover"<!--[/if]-->><a href="{:U('consultation/index')}">医院管理咨询</a></li>
+      <li <!--[if condition="$data.id == 4"]-->class="hover"<!--[/if]-->><a href="{:U('consultation/presale')}">售前咨询</a></li>
+      <li <!--[if condition="ACTION_NAME == 'strategy'"]-->class="hover"<!--[/if]-->><a href="{:U('consultation/strategy')}">实施咨询</a></li>
+    </ul>
+  </div>
+  <div class="erright">
+    <div class="top"> <span>{$data.name}</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('consultation/index')}">咨询服务</a> >
+        {$data.name} </div>
+    </div>
+    <div class="ertitle"> <b>{$data.name}</b> {$data.enname}</div>
+    <div class="content"> {$data.content.0} </div>
+    
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

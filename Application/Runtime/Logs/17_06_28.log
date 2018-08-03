@@ -1,0 +1,2952 @@
+[ 2017-06-28T00:14:04+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=11869&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:05+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=12163&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T00:14:05+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=17874&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:08+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=27170&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:13+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=3601&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:13+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=21617&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:15+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=2249&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:14:29+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=16391&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T00:25:06+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=16118&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T00:25:23+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=11238&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:25:33+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=26579&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:25:41+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=32323&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:25:42+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=28209&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:25:47+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=7006&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:41:44+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=30426&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T00:41:44+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=10193&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:41:45+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=29608&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:41:47+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=6753&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:41:52+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=9674&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:41:53+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=1957&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T00:41:54+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=17555&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T00:42:07+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=23302&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:03:51+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=23709&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:03:53+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=29278&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:03:53+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=25888&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T01:03:54+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=29876&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:03:54+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T01:03:56+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=27186&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:04:00+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=21445&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:04:04+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=30561&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:04:04+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=4040&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T01:04:04+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D0%1B%9B%B3%1C%C2%C4CV%2C%ED%98&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=31876&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:34+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=16135&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:38+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=3077&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:38+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=20076&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T01:12:38+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=32528&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:42+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=8908&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:47+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=15853&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:12:47+08:00 ] 127.0.0.1 /announce?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=30174&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-06-28T01:13:05+08:00 ] 127.0.0.1 /announce.php?info_hash=%B5%7FTeC%DF%AC%EC%A1%11%AF%B2%BD%0Dv%00%A0o%04%A7&peer_id=-XL0012-%D3%F1%3Fm%B9%82P%EDl%FDV%14&ip=192.168.1.110&port=15000&uploaded=0&downloaded=0&left=2648759399&numwant=200&key=18337&compact=1&event=started
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Announce.php
+
+[ 2017-06-28T01:24:33+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:26:53+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:26:55+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:31:43+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:31:45+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Home/View/Aboutus/index.html
+
+[ 2017-06-28T20:31:53+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:32:27+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:34:13+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:34:14+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:38:43+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:38:45+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:39:43+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:39:45+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 50 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:40:07+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:42:48+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:43:08+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:43:31+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:43:44+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:43:45+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:43:46+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:44:08+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:44:38+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:45:23+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 52 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:45:25+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_producttype` LIMIT 0,5   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_product` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `zr_product` ORDER BY sort desc,id desc LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_news` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zr_news` ORDER BY sort desc,id desc LIMIT 7,14   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_cooperation` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `zr_cooperation` ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:46:37+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T20:47:04+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:48:01+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:50:23+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:50:43+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:51:18+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T20:51:20+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:51:40+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:52:10+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:52:27+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:52:28+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:53:13+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T20:53:32+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:54:14+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:54:25+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:54:38+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:55:00+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T20:55:37+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:56:04+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:56:14+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:57:14+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:58:12+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T20:59:00+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Home\cf431913f75eb6ba416cba7885706256.php 第 56 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T20:59:49+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:01:10+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:01:37+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:01:55+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:02:12+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:02:13+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:02:31+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:03:09+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:03:37+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:04:08+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:07:27+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:07:28+08:00 ] ::1 /healthy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Healthy
+
+[ 2017-06-28T21:08:56+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-28T21:10:06+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:10:29+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:10:53+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:11:47+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:12:00+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:12:14+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:13:51+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:14:03+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:14:24+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:15:08+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T21:15:19+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:15:29+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:15:39+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:16:18+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:16:38+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-28T21:16:39+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:16:44+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:16:45+08:00 ] ::1 /healthy/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Healthy
+
+[ 2017-06-28T21:16:48+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+ERR: 非法操作:honor
+
+[ 2017-06-28T21:17:47+08:00 ] ::1 /aboutus/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_show` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:17:52+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+ERR: 非法操作:honor
+
+[ 2017-06-28T21:18:13+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:18:48+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:19:12+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:19:36+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:20:58+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-28T21:21:01+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:21:02+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:21:09+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-28T21:22:59+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:23:01+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:23:07+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:25:15+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:25:34+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:26:07+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:26:23+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:26:40+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:28:56+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:29:01+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:29:54+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:39:02+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:39:54+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:40:02+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:40:34+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:40:57+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:41:31+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-28T21:41:47+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:42:14+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:43:33+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-28T21:43:40+08:00 ] ::1 /aboutus/honor.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zr_producttype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `zr_producttype`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\Application\Runtime\Cache\Home\73431856415e268c0886efc04176e258.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

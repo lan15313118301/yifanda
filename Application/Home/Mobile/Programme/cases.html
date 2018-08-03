@@ -1,0 +1,39 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>经典案例</h3>
+    <div class="bty">
+		<img src="__PUBLIC__/mobile/img/programmebg.jpg" width="640" height="202" alt="banner">
+	</div>
+    <ul>
+        	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=1')}">华北地区</a></li>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=2')}">东北地区</a></li>
+            <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=3')}">西南地区</a></li>
+            <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=4')}">华东地区</a></li>
+            <li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=5')}">华南地区</a></li>
+            <li <!--[if condition="$type == 6"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=6')}">华中地区</a></li>
+            <li <!--[if condition="$type == 7"]-->class="hover"<!--[/if]-->><a href="{:U('programme/cases?type=7')}">西北地区</a></li>
+		
+  <li style="background:none">&nbsp;</li>
+</ul>
+
+  </div>
+  
+</section>
+
+<section> 
+    <div class="case">
+    	<ul>
+        <!--[volist name="list" id="v"]-->
+        	<li> 
+            	<a href="{:U('programme/cases_show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a> 
+                <span class="tit"><a href="{:U('programme/cases_show?id='.$v['id'].'')}">{$v.name}</a></span> 
+            </li>
+        <!--[/volist]-->   
+      </ul>
+    <div class="page">{$page}</div>
+  </div>
+  </section>
+<!--[include file="Public:footer" /]-->

@@ -1,0 +1,125 @@
+<div class="row">
+  <div class="col-xs-12"> 
+    <!-- PAGE CONTENT BEGINS -->
+    <form class="form-horizontal" role="form" action="{:U("dr_htadmin/show/index")}" method="post" enctype="multipart/form-data">
+      <input type="hidden" name="action" value="edit" />
+      <input type="hidden" name="id" value="{$showid}" />
+      <!-- #section:elements.form -->
+      <div class="form-group">
+        <label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 名称 : </label>
+        <div class="col-sm-9">
+          <input type="text" class="col-xs-10 col-sm-3" name="name" value="{$list.name}" disabled />
+        </div>
+      </div>
+      <div class="form-group">
+                <label class="col-sm-2 control-label no-padding-right" for="form-field-1-1"> 缩略图 : </label>
+                <div class="col-sm-9">
+                  <input type="hidden" class="set-input input_thumb" name="thumb" value="{$list[thumb]}" />
+                  <span id="thumbshow"><!--[if condition="$list.thumb != ''"]--><img src="{$list[thumb]}" style="max-width:200px;max-height:200px;"><!--[/if]--></span> <span id="thumberror"></span> 
+                  <script src="__PUBLIC__/dr_htadmin/js/jquery-1.7.1.min.js"></script> 
+                  <script type="text/javascript" src="/Public/dr_htadmin/js/ajaxupload.3.6.js" ></script>
+                  <input id="thumbbutton" class="btn btn-xs" type="button" value="重新上传" />
+                  (尺寸 227*153)  
+                  <script type="text/javascript">
+                                                    $(document).ready(function() {
+                                                        new AjaxUpload('thumbbutton', { action : "{:U('dr_htadmin/upload/upload?type=thumb')}",//请求目标
+                                                            name : 'upload', //文件参数名
+                                                            multiple : false,//可以多选文件
+                                                            onSubmit:function(file,ext){
+                                                                    if(ext && /^(jpg|jpeg|png|gif)$/.test(ext)){
+                                                                            //ext是后缀名
+                                                                            $("#thumbbutton").val("正在上传…");
+                                                                            $("#thumbbutton").attr("disabled","disabled");
+                                                                    }else{
+                                                                            $("#thumberror").css({"color":"#ff3300"}).html("不支持非图片格式！");
+                                                                            return false;
+                                                                    }
+                                                            },
+                                                            onComplete:function(file,response){
+                                                                    $("#thumbbutton").val("重新上传");
+                                                                    $("#thumbbutton").removeAttr("disabled");
+                                                                    $("#thumberror").html("");
+                                                                    $(".input_thumb").val(response);
+                                                                    $("#thumbshow").html('<img style="max-width:200px;max-height:200px;" src="'+response+'?'+Math.random()+'" />');
+                                                            }
+                                                        });
+                                                        $(".editthumb").live("click",function(){
+                                                            var html='<div class="pop-box">';
+                                                            html += '<style>';
+                                                            html += '.pop-box{position: fixed;left: 0;top: 0;height: 100%;width: 100%;}';
+                                                            html += '.pop-box .pop-close{position: absolute; width: 20px; height: 20px; border-radius: 15px; overflow: hidden; right: -10px; top: -10px; border: 2px solid #444; background-color: #FFF; line-height: 20px; text-align: center; font-family: Comic Sans MS; color: #000; font-size: 16px; cursor: pointer;}';
+                                                            html += '.pop-box .pop-close:hover{color:red;}';
+                                                            html += '.pop-box .pop-mask{height: 100%;background-color: #000;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5; opacity: 0.5;}';
+                                                            html += '.pop-box .pop-content{width: 900px; height: 500px; position: absolute; top: 50%; margin-top: -250px; left: 50%; margin-left: -450px; background-color: #FFF; border: 3px solid #444;}';
+                                                            html += '</style>';
+                                                            html += '<div class="pop-mask"></div>';
+                                                            html += '<div class="pop-content">';
+                                                            html += '<div class="pop-close" onclick="$(this).parents(\'.pop-box\').remove();">X</div>';
+                                                            html += '<iframe width="100%" height="100%" src="__URL__/editthumb/thumb/'+$("#thumbshow img").attr("src").replace(/\//gm,"-").replace(/\./gm,"^")+'?'+Math.random()+'" id="HtmlEdit" style="border:0;"></iframe>';
+                                                            html += '</div></div>';
+                                                            $("body").append(html);
+                                                        });
+                                                    });
+                                                </script> 
+                </div>
+              </div>
+              <div class="space-4"></div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label no-padding-right" for="form-field-1-1"> 介绍 : </label>
+                <div class="col-sm-9">
+                  <textarea class="col-xs-10 col-sm-5" id="form-field-8" name="summary" >{$list.summary}</textarea>
+                </div>
+              </div>
+      
+      <link rel="stylesheet" href="/Public/dr_htadmin/kindeditor-4.1.10/themes/default/default.css" />
+      <link rel="stylesheet" href="/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.css" />
+      <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/kindeditor.js"></script> 
+      <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/lang/zh_CN.js"></script> 
+      <script charset="utf-8" src="/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.js"></script>
+      <style>
+                                .ke-dialog-body input {
+                                    font-size: 12px;
+                                    padding: 0px
+                                }
+                                </style>
+      <div class="space-4"></div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label no-padding-right" for="form-field-1-1"> 内容 : </label>
+        <div class="col-sm-9"> 
+          <script>
+                                        KindEditor.ready(function(K) {
+                                            var editor1 = K.create('textarea[name="content[]"]', {
+                                            cssPath : '/Public/dr_htadmin/kindeditor-4.1.10/plugins/code/prettify.css',
+                                            uploadJson : '{:U("dr_htadmin/show/uploadphoto?type=thumb")}',
+                                            fileManagerJson : '__URL__/mannex/',
+                                            allowFileManager : true,
+                                            afterCreate : function() {
+                                            var self = this;
+                                            K.ctrl(document, 13, function() {
+                                                self.sync();
+                                                K('form[name=vsize1]')[0].submit();
+                                            });
+                                            K.ctrl(self.edit.doc, 13, function() {
+                                                self.sync();
+                                                K('form[name=vsize1]')[0].submit();
+                                            });
+                                            }
+                                        });
+                                        prettyPrint();
+                                        });
+                                    </script>
+          <textarea name="content[]" class="col-xs-10" style="height:360px;visibility:hidden;">{$list.content.0}</textarea>
+        </div>
+      </div>
+      <div class="clearfix form-actions">
+        <div class="col-md-offset-2 col-md-9">
+          <button class="btn btn-info" type="submit"> <i class="ace-icon fa fa-check bigger-110"></i> 提 交 </button>
+          &nbsp; &nbsp; &nbsp;
+          <button class="btn" type="reset"> <i class="ace-icon fa fa-undo bigger-110"></i> 重 置 </button>
+        </div>
+      </div>
+      <div class="hr hr-24"></div>
+    </form>
+  </div>
+  <!-- /.col --> 
+</div>

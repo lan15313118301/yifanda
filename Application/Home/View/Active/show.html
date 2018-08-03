@@ -1,0 +1,34 @@
+<!--[include file="Public:header" /]-->
+<div class="responsibilitybg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="service inner">
+     <div class="ernav">
+        <span>人才发展</span>
+        <ul>            
+            <li <!--[if condition="$data.id == 6"]-->class="hover"<!--[/if]-->><a href="{:U('responsibility/index')}">人才发展理念</a></li>
+            <li <!--[if condition="$data.id == 7"]-->class="hover"<!--[/if]-->><a href="{:U('responsibility/charitable')}">人才发展实践</a></li>
+            <li <!--[if condition="CONTROLLER_NAME == Active"]-->class="hover"<!--[/if]-->><a href="{:U('active/index?type=1')}">文化活动</a></li>
+        </ul>
+    </div>
+     <div class="erright">
+    	<div class="top">
+        	<span></span>
+            <div class="position">
+            	您当前位置：<a href="__APP__/">首页</a> > 
+                <a href="{:U('active/index')}">文化活动</a> >
+                <a href="{:U('active/index?type='.$type.'')}">{$typename}</a> >
+                {$data.name}
+            </div>
+        </div>
+        
+        <div class="content">
+        	<span class="t">{$data.name}</span>
+            <span class="t1">来源：{$data.author}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间：{$data.addtime|date='Y-m-d',###}</span>
+			{$data.content}        	
+        </div>
+     </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

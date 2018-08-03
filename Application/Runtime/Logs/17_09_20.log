@@ -1,0 +1,52 @@
+[ 2017-09-20T20:00:01+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dongruan.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'dongruan.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dongruan.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001000s ]
+ERR: 1146:Table 'dongruan.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dongruan.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'dongruan.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'dongruan.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'dongruan.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'dongruan.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `dr_case` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

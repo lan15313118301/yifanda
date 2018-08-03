@@ -1,0 +1,49 @@
+<!--[include file="Public:header" /]-->
+
+<div class="sand">
+  <div class="w_auto">
+    <div class="mainbody">
+      <div class="leftnav">
+        <ul>
+          <li <!--[if condition="$type == 1"]-->class="on"<!--[/if]-->><a title="展览展示" href="{:U('works/index?type=1')}">展览展示</a></li>
+          <li <!--[if condition="$type == 2"]-->class="on"<!--[/if]-->><a title="影视宣传广告" href="{:U('works/index?type=2')}">影视宣传广告</a></li>
+          <li <!--[if condition="$type == 3"]-->class="on"<!--[/if]-->><a title="沙盘模型" href="{:U('works/index?type=3')}">沙盘模型</a></li>
+          <li <!--[if condition="$type == 4"]-->class="on"<!--[/if]-->><a title="舞美演出" href="{:U('works/index?type=4')}">舞美演出</a></li>
+          <li <!--[if condition="$type == 5"]-->class="on"<!--[/if]-->><a title="博物馆工程" href="{:U('works/index?type=5')}">博物馆工程</a></li>
+        </ul>
+      </div>
+      <div class="rightbody">
+        <div class="link">
+          <p class="title">作品展示</p>
+          <span><a href="__APP__/">首页</a> ＞ <a href="{:U('works/index')}">作品展示</a> 
+          	<!--[if condition="$type gt 0"]--> ＞ {$typename}<!--[/if]-->
+          </span> </div>
+        <div class="clearfix"></div>
+        <div class="w_auto4">
+          <ul>
+           	<!--[volist name="list" id="v"]-->
+            <li class="li_{$i}" title="{$v.name}"> <a class="lia" href="{:U('works/show?id='.$v['id'].'')}"><img src="{$v.thumb}" width="250" height="166"></a>
+              <p class="title">{$v.name}</p>
+              <div class="casename">
+                  <a href="" target="_blank">{$v.province}</a>
+                  <a href="" target="_blank">{$v.city}</a>
+                  <a href="" target="_blank">{$v.company}</a>
+              </div>
+              <div class="date"><a href="{:U('works/show?id='.$v['id'].'')}">{$v.addtime|date='Y-m-d',###}</a></div>
+            </li>
+            <!--[/volist]-->
+
+          </ul>
+          <div class="clearfix"></div>
+          <div class="fanye">
+            <div class="page"> {$page}
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

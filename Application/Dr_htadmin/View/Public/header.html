@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>伊凡达互动-管理系统</title>
+
+		<meta name="description" content="overview &amp; stats" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/font-awesome.min.css" />
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/jquery-ui.custom.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/chosen.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/datepicker.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/bootstrap-timepicker.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/daterangepicker.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/bootstrap-datetimepicker.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/colorpicker.css" />
+		<!-- text fonts -->
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace-fonts.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace.min.css" id="main-ace-style" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace-part2.min.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace-rtl.min.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="__PUBLIC__/dr_htadmin/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+		<script src="__PUBLIC__/dr_htadmin/js/ace-extra.min.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="__PUBLIC__/dr_htadmin/js/html5shiv.min.js"></script>
+		<script src="__PUBLIC__/dr_htadmin/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="no-skin">
+		<div id="navbar" class="navbar navbar-default">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<a href="http://www.hongyangkeji.com.cn" class="navbar-brand" target="_blank">
+						<small>
+							伊凡达互动
+						</small>
+					</a>
+				</div>
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<span class="user-info">
+									<small>您好,</small>
+									{$gu.username}
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-cog"></i>
+										Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="/dr_htadmin/user/">
+										<i class="ace-icon fa fa-user"></i>
+										会员信息
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="{:U('dr_htadmin/login/logout')}">
+										<i class="ace-icon fa fa-power-off"></i>
+										退出
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        
+        

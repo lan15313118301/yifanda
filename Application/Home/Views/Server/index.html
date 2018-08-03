@@ -1,0 +1,29 @@
+<!--[include file="Public:header" /]-->
+
+<div class="culture">
+  <div class="w_auto">
+    <div class="mainbody">
+      <div class="leftnav">
+        <ul>
+          <li <!--[if condition="$data.id == 14"]-->class="hover"<!--[/if]-->><a title="服务流程" href="{:U('server/index')}">服务流程</a></li>
+          <li <!--[if condition="$data.id == 15"]-->class="hover"<!--[/if]-->><a title="服务说明" href="{:U('server/explain')}">服务说明</a></li>
+        </ul>
+      </div>
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ {$data.name} </span> </div>
+          <div class="clearfix"></div>
+          <div class="bt">
+            <p class="title">{$data.name}</p>
+          </div>
+          <div class="wenhua_read">
+            {$data.content.0}
+            <p style="line-height: 1.5em;">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

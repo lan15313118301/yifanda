@@ -1,0 +1,38 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>关于望海</h3>
+    <div class="bty"> <img src="__PUBLIC__/mobile/img/aboutusbg.jpg" width="640" height="202" alt="banner"> </div>
+    <ul>
+      <li <!--[if condition="$data.id == 1"]-->class="hover"<!--[/if]-->><a href="{:U('aboutus/index')}">公司介绍</a>
+      </li>
+      <li <!--[if condition="$data.id == 2"]-->class="hover"<!--[/if]-->><a href="{:U('aboutus/honor')}">望海荣誉</a>
+      </li>
+      <li <!--[if condition="ACTION_NAME == 'style' || ACTION_NAME == 'style_show'"]-->class="hover"<!--[/if]-->><a href="{:U('aboutus/style')}">望海风采</a>
+      </li>
+      <li <!--[if condition="$data.id == 3"]-->class="hover"<!--[/if]-->><a href="{:U('aboutus/speech')}">总裁致辞</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn t-ctn2 b-ctn3">
+    <h3> <a> 望海风采 </a> </h3>
+    <!--标题-->
+    <div class="bty2 content">
+      <h1 style="display: none;" id="Slidedown_SlideBanner"></h1>
+      <div class="viewport" style="width: 620px;  margin-bottom:20px">
+        <div class="flipsnap bannerControl"> 
+          <!--[volist name="list" id="v"]-->
+          <div class="item"><a data-transition="flip"><img data-original="" src="{$v.thumb}" style=" width:620px" alt="" title="" class="lazy" ></a></div>
+          <!--[/volist]--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--[include file="Public:footer" /]-->

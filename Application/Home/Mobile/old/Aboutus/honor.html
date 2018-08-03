@@ -1,0 +1,32 @@
+<!--[include file="Public:header" /]-->
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3 style="font-size:30px">企业概况</h3>
+    <div class="bty"> <img src="__PUBLIC__/mobile/img/aboutusbg.jpg" width="640" height="202" alt="banner"> </div>
+    <!--[include file="Aboutus:nav" /]-->
+  </div>
+</section>
+<div style="clear:both"></div>
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn t-ctn2 b-ctn3 "> 
+  <div class="honor">
+  	<span class="title" id="title1"> 荣誉资质 </span>
+    <div class="content">
+		<ul>
+        	<!--[volist name="list" id="v"]-->
+        	<li>
+            	<a href="{:U('aboutus/honor_show?id='.$v['id'].'')}">
+                	<img src="{$v.thumb}">
+                    <span>{$v.name}</span>
+                </a>
+            </li>
+            <!--[/volist]-->
+        </ul>
+        <div class="page">{$page}</div>
+	</div>
+  </div>
+</section>
+
+<!--[include file="Public:footer" /]-->

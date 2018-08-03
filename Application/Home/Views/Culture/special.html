@@ -1,0 +1,36 @@
+<!--[include file="Public:header" /]-->
+
+<div class="dynamic">
+  <div class="w_auto">
+    <div class="mainbody"> 
+      <!--[include file="Culture:nav" /]-->
+      <div class="rightbody">
+        <div class="w_auto3">
+          <div class="link"> <span><a href="__APP__/">首页</a> ＞ <a href="{:U('culture/index')}">企业文化</a> ＞ 专题活动 </span> </div>
+          <div class="clearfix"></div>
+          <div class="bt">
+            <p class="title">专题活动</p>
+            <p class="en">THEMATIC ACTIVITY</p>
+          </div>
+        </div>
+        <ul>
+          <!--[volist name="list" id="v"]-->
+          <li style="height:350px;"> 
+            <a href="{:U('culture/special_show?id='.$v['id'].'')}" title="{$v.name}"><img class="zhong" alt="{$v.name}" src="{$v.thumb}" width="690" style="width:690px;" height="300"></a>
+            <div class="you" style="clear:both;">
+              <p class="title" style="padding:10px 0 0 0; width:690px; font-size:16px;"><a href="{:U('culture/special_show?id='.$v['id'].'')}" title="{$v.name}">{$v.name}</a><span style="float:right; font-size:14px;">{$v.addtime|date='Y-m-d',###}</span></p>
+            </div>
+          </li>
+          <!--[/volist]-->
+        </ul>
+        <div class="fanye">
+          <div class="page"> {$page}
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

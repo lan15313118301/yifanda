@@ -1,0 +1,37 @@
+<!--[include file="Public:header" /]-->
+
+<div class="productbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="product inner">
+  <div class="ernav">
+    	<span>Motion平台</span>
+        <ul>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('product/honor?type=2')}">Motion</a></li>
+            <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('product/index?type=1')}">游戏名称</a></li>
+
+        </ul>
+        
+       
+    </div>
+  <div class="erright">
+    <div class="top"> <span>{$typename}</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('product/index')}">Motion平台</a> >
+        {$typename} </div>
+    </div>
+    <div class="content">
+      <ul>
+        <!--[volist name="list" id="v"]-->
+            <li> <a href="{:U('product/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                <span><a href="{:U('product/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+            </li>
+        <!--[/volist]-->        
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

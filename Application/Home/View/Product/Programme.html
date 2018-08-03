@@ -1,0 +1,43 @@
+<!--[include file="Public:header" /]-->
+
+<div class="programmebg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="programme inner">
+
+          <!--[include file="Product:nav" /]-->
+
+
+  <div class="erright">
+    <div class="top"> <span>解决方案</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('product/programme')}">解决方案</a></div>
+    </div>
+    <div class="programmenav">
+    	<ul>
+        	<li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=1')}">教育集团解决方案</a></li>
+        	<li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=2')}">医联体解决方案</a></li>
+          <li <!--[if condition="$type == 3"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=3')}">医院运营管理解决方案</a></li>
+          <li <!--[if condition="$type == 4"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=4')}">政府解决方案</a></li>
+        	<li <!--[if condition="$type == 5"]-->class="hover"<!--[/if]-->><a href="{:U('product/programme?type=5')}">DRG解决方案</a></li>
+        </ul>
+    </div>
+    <div class="content" style="min-height:700px;">
+      <ul>
+        
+        
+        <!--[volist name="list" id="v"]-->
+        	<li> <a href="{:U('product/shows?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+              <div> <span class="hua"><font>+</font></span> <span class="tit"><a href="{:U('product/shows?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+                <span class="time"><a href="{:U('product/shows?id='.$v['id'].'')}">查看详情</a></span> </div>
+            </li>
+        <!--[/volist]-->
+        
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

@@ -1,0 +1,663 @@
+[ 2018-01-29T13:43:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.008000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.006000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.007000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.028001s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.029001s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.135007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.028002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2018-01-29T13:43:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.007000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.008000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.002000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.006001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.026001s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.029001s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.134007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.028002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2018-01-29T13:45:22+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.005000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004001s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T13:50:39+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.005000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001001s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.005000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T15:04:05+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.019001s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.042003s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.005000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2018-01-29T16:34:22+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.023001s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.004001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.023002s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2018-01-29T16:37:42+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.005000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T16:55:43+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.004001s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.005001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T16:55:47+08:00 ] ::1 /product/show/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\www_dr\Application\Home\Controller\ProductController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.004001s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_product` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.017001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 77 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 78 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 79 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 80 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 81 行.
+NOTIC: [8] Undefined index: enname D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 93 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 119 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 122 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\9efbf95c3038e7c17f67fe7d3e5a424d.php 第 123 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:55:50+08:00 ] ::1 /index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\www_dr\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `dr_furnituretype` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_furnituretype`
+SQL: SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_furnituretype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_furnituretype` ORDER BY sort desc,id asc 
+SQL: SHOW COLUMNS FROM `dr_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_storytype` [ RunTime:0.005001s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_storytype`
+SQL: SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_storytype' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_storytype` ORDER BY sort desc,id asc LIMIT 0,5  
+SQL: SHOW COLUMNS FROM `dr_interlocution` [ RunTime:0.004000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dr_interlocution`
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+ERR: 1146:Table 'hongyangtest.dr_interlocution' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dr_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6  
+SQL: SHOW COLUMNS FROM `dr_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_product` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_programme` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=1 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=2 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=3 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=4 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `dr_programme` WHERE ( type=5 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_case` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `dr_case` WHERE ( state=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dr_news` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dr_news` ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dr_course` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `dr_course` ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\www_dr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 222 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,51 @@
+<!--[include file="Public:header" /]-->
+
+<div class="video">
+  <div class="w_auto">
+    <div class="headnav">
+      <ul>
+        <li><a title="数字沙盘视频" href="{:U('video/index?type=1')}" <!--[if condition="$type == 1"]-->class="on"<!--[/if]-->>数字沙盘视频</a></li>
+        <li><a title="展览展示视频" href="{:U('video/index?type=2')}" <!--[if condition="$type == 2"]-->class="on"<!--[/if]-->>展览展示视频</a></li>
+        <li><a title="文博馆视频" href="{:U('video/index?type=3')}" <!--[if condition="$type == 3"]-->class="on"<!--[/if]-->>文博馆视频</a></li>
+        <li><a title="舞美演出视频" href="{:U('video/index?type=4')}" <!--[if condition="$type == 4"]-->class="on"<!--[/if]-->>舞美演出视频</a></li>
+        <li><a title="企业宣传视频" href="{:U('video/index?type=5')}" <!--[if condition="$type == 5"]-->class="on"<!--[/if]-->>企业宣传视频</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="mainbody">
+      <div class="w_auto7">
+        <div class="link">
+          <p class="title">{$typename}<!--[if condition="$keyword"]--><p class="title">搜索</p><!--[/if]--></p>
+          <span>
+           <a href="__APP__/">首页</a> ＞ 
+          <a href="{:U('video/index')}">视频资料</a> ＞ 
+          {$typename}<!--[if condition="$keyword"]-->搜索 关键词 "{$keyword}"<!--[/if]-->
+          </span>
+          <div class="clearfix"></div>
+        </div>
+        <ul>
+          <!--[volist name="list" id="v"]-->
+          
+          
+          <li><a href="{:U('video/show?id='.$v['id'].'')}" title="{$v.name}"> <img class="img" src="{$v.thumb}" alt="{$v.name}" width="243" height="137"> <span></span>
+            <div class="bt">
+              <p class="wz">{$v.name|cut_str=6}</p>
+              <p class="date">{$v.addtime|date='Y-m-d',###}</p>
+            </div>
+            </a></li>
+          <!--[/volist]-->
+          
+          
+        </ul>
+        <div class="clearfix"></div>
+        <div class="fanye">
+          <div class="page"> {$page}
+            <div class="clearfix"></div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

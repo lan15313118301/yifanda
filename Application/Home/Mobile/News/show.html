@@ -1,0 +1,42 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <div class="bty">
+		<img src="__PUBLIC__/mobile/img/newsbg.jpg" width="640" height="202" alt="banner">
+	</div>
+    <ul>
+        <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('news/index?type=1')}">行业新闻</a></li>
+        </ul>
+  </div>
+  
+</section>
+
+<section> 
+    <div class="content news_show">
+    	<span class="t1">{$data.name}</span>
+        <span class="t2">作者：{$data.author}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日期：{$data.addtime|date='Y-m-d',###}</span>
+    	<div class="cont">{$data.content}</div>
+        <div class="b">
+        	<span class="l">
+            上一篇：
+            <!--[if condition="$down"]-->
+            	<a href="{:U('news/show?id='.$down['id'].'')}">{$down.name}</a>
+            <!--[else/]-->
+            	没有了
+            <!--[/if]-->
+            </span>
+        	<span class="r">
+            下一篇：
+            <!--[if condition="$up"]-->
+            	<a href="{:U('news/show?id='.$up['id'].'')}">{$up.name}</a>
+            <!--[else/]-->
+            	没有了
+            <!--[/if]-->
+            
+            </span>
+        </div>
+    </div>
+  </section>
+<!--[include file="Public:footer" /]-->

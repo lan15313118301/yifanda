@@ -1,0 +1,31 @@
+<!--[include file="Public:header" /]-->
+
+<div class="productbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="product inner">
+
+        
+        <!--[include file="Product:nav" /]-->
+
+
+  <div class="erright">
+    <div class="top"> <span>{$typename}</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('product/index')}">产品展示</a></div>
+    </div>
+    <div class="content">
+      <ul>
+        <!--[volist name="list" id="v"]-->
+            <li> <a href="{:U('product/show?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                <span><a href="{:U('product/show?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+            </li>
+        <!--[/volist]-->        
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

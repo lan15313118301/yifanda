@@ -1,0 +1,32 @@
+<!--[include file="Public:header" /]-->
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>文化活动</h3>
+    <div class="bty">
+		<img src="__PUBLIC__/mobile/img/responsibilitybg.jpg" width="640" height="202" alt="banner">
+	</div>
+    <ul>
+       <li><a href="{:U('responsibility/index')}">人才发展理念</a></li>
+       <li><a href="{:U('responsibility/charitable')}">人才发展实践</a></li>
+       <li><a href="{:U('active/index?type=1')}">文化活动</a></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+    <div class="content news">
+    	<ul>
+            
+            <!--[volist name="list" id="v"]-->
+
+            	<li><a href="{:U('active/show?id='.$v['id'].'')}">{$v.name|cut_str="20"}</a><span>{$v.addtime|date='Y/m/d',###}</span></li>
+
+        	<!--[/volist]-->
+
+    	</ul>
+    <div class="page">{$page}</div>
+  </div>
+</section>
+<!--[include file="Public:footer" /]-->

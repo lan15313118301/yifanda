@@ -1,0 +1,1374 @@
+[ 2017-08-15T20:47:41+08:00 ] ::1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_story` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_story` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_news` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `jqg_news` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_news` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,7   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:47:43+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:48:49+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:48:52+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:48:58+08:00 ] ::1 /jqg_htadmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 72 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 134 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 134 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 134 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 134 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 134 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 160 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 167 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 168 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 169 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 170 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 175 行.
+NOTIC: [8] Undefined variable: type D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\a988e0ae57686a5b55077fa4e11ff7ae.php 第 176 行.
+SQL: select version() as v; [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:11+08:00 ] ::1 /jqg_htadmin/craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.003000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( `type` = '' ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T20:49:13+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:14+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004001s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T20:49:14+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.003001s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T20:49:22+08:00 ] ::1 /jqg_htadmin/upload/uplaodfile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2017-08-15T20:49:22+08:00 ] ::1 /jqg_htadmin/upload/uplaodfile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2017-08-15T20:49:22+08:00 ] ::1 /jqg_htadmin/upload/uplaodfile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2017-08-15T20:49:22+08:00 ] ::1 /jqg_htadmin/upload/uplaodfile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2017-08-15T20:49:24+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: UPDATE `jqg_craftsman` SET `name`='胡钢所2',`price`='a:5:{i:0;s:37:\"/Uploads/20170730/1501410748_5202.jpg\";i:1;s:37:\"/Uploads/20170730/1501410751_9619.jpg\";i:2;s:37:\"/Uploads/20170730/1501410753_7663.jpg\";i:3;s:37:\"/Uploads/20170730/1501410756_9224.jpg\";i:4;s:37:\"/Uploads/20170730/1501411098_7484.jpg\";}',`img`='a:4:{i:0;s:37:\"/Uploads/20170815/1502801362_7286.jpg\";i:1;s:37:\"/Uploads/20170815/1502801362_3823.jpg\";i:2;s:37:\"/Uploads/20170815/1502801362_1992.gif\";i:3;s:37:\"/Uploads/20170815/1502801362_2793.jpg\";}',`type`='',`key`='',`thumb`='',`summary`='',`content`='&lt;span&gt;男，1938年8月生。1962年毕业于原上海医科大学医学系，现为复旦大学医学院（原上海医科大学）肝癌研究所教授、博士生导师，曾任复旦大学医学院（原上海医科大学）附属中山医院院长及复旦大学医学院（原上海医科大学）中山临床医学院院长，兼任中华医学会全科学会副主任委员、中华医学会肝病学会科学委员、上海医学会科普学会主任委员及上海医学会肿瘤学会副主任委员等职。主要研究肝癌的早期发现，早期诊断及肝癌的内科治疗等。1985年曾因 “ 小肝癌的诊断和治疗 ” 获国家科学技术进步一等奖。主编《原发性肝癌的研究和进展》、《内科治疗矛盾》等专著、并担任《实用内科学》第十版副主编、第十二版编委，参与编写专著近20部，发表学术论文百余篇。&lt;/span&gt;',`state`='' WHERE ( id=3 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\33b1106d769efa107c51b9e170fdbf18.php 第 51 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-15T20:49:25+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:26+08:00 ] ::1 /jqg_htadmin/craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( `type` = '' ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 72 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\fa3e79dcd4a1c8bc27c31489c54c7ac6.php 第 232 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-15T20:49:37+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:49+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:50+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:50+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:51+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-15T20:49:51+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:49:51+08:00 ] ::1 /jqg_htadmin/craftsman/edit/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_user` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_icolor` [ RunTime:0.004000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jqg_icolor`
+SQL: SELECT * FROM `jqg_icolor`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'jiaqiange.jqg_icolor' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `jqg_icolor` 
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 32 行.
+NOTIC: [8] Undefined index: role D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\BaseController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Application\Jqg_htadmin\Controller\CraftsmanController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: gu D:\phpStudy\WWW\Application\Runtime\Cache\Jqg_htadmin\e1f8f74debf4dab705d529814873add6.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:51:17+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 120 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 121 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 122 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-15T20:51:58+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T20:52:13+08:00 ] ::1 /craftsman/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_furnituretype` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `jqg_furnituretype` ORDER BY sort desc,id asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jqg_show` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_show` WHERE ( type=2 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_storytype` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_storytype` ORDER BY sort desc,id asc LIMIT 0,5   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_interlocution` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=1 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=2 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=3 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `jqg_interlocution` WHERE ( type=4 ) ORDER BY sort desc,id desc LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jqg_craftsman` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `jqg_craftsman`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 118 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 117 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 157 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\phpStudy\WWW\Application\Runtime\Cache\Home\68a6c37f4c8ec02a0d1911fe8688f77a.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

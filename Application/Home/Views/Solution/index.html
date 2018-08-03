@@ -1,0 +1,33 @@
+<!--[include file="Public:header" /]-->
+
+<div class="solve">
+  <div class="w_auto">
+    <div class="headnav">
+      <ul>
+        <li><a title="城市规划" href="{:U('solution/index')}" <!--[if condition="$data.id == 8"]-->class="on"<!--[/if]-->>城市规划</a><span></span></li>
+        <li><a title="房地产营销" href="{:U('solution/realestate')}" <!--[if condition="$data.id == 9"]-->class="on"<!--[/if]-->>房地产营销</a></li>
+        <li><a title="石油化工" href="{:U('solution/petrochemical')}" <!--[if condition="$data.id == 10"]-->class="on"<!--[/if]-->>石油化工</a></li>
+        <li><a title="煤炭电力" href="{:U('solution/coal')}" <!--[if condition="$data.id == 11"]-->class="on"<!--[/if]-->>煤炭电力</a></li>
+        <li><a title="企业展厅" href="{:U('solution/enterprise')}" <!--[if condition="$data.id == 12"]-->class="on"<!--[/if]-->>企业展厅</a></li>
+        <li><a title="博物馆" href="{:U('solution/museum')}" <!--[if condition="$data.id == 13"]-->class="on"<!--[/if]-->>博物馆</a></li>
+        <li><a title="舞美演出" href="{:U('solution/wumei')}" <!--[if condition="$data.id == 23"]-->class="on"<!--[/if]-->>舞美演出</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="mainbody">
+      <div class="w_auto6">
+        <div class="link">
+          <p class="title">{$data.name}</p>
+          <span><a href="__APP__/">首页</a> ＞ <a href="{:U('solution/index')}">解决方案</a> ＞ {$data.name} </span> </div>
+        <div class="fangan_read">
+          {$data.content.0}
+          <p class="title"> <br>
+          </p>
+          <p class="title"> <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

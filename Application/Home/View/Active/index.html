@@ -1,0 +1,46 @@
+<!--[include file="Public:header" /]-->
+<div class="responsibilitybg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="news inner">
+   <div class="ernav">
+      <span>人才发展</span>
+        <ul>            
+            <li <!--[if condition="$data.id == 6"]-->class="hover"<!--[/if]-->><a href="{:U('responsibility/index')}">人才发展理念</a></li>
+      <li <!--[if condition="$data.id == 7"]-->class="hover"<!--[/if]-->><a href="{:U('responsibility/charitable')}">人才发展实践</a></li>
+      <li <!--[if condition="CONTROLLER_NAME == Active"]-->class="hover"<!--[/if]-->><a href="{:U('active/index?type=1')}">文化活动</a></li>
+      <li><a href="javascript:;">智联招聘</a></li>
+        </ul>
+    </div>
+     <div class="erright">
+    	<div class="top">
+        	<span>
+            </span>
+            <div class="position">
+            	您当前位置：<a href="__APP__/">首页</a> > 
+                <a href="{:U('active/index')}">文化活动</a> >
+                {$typename}
+            </div>
+        </div>
+            <div class="programmenav">
+      <ul>
+            <li <!--[if condition="$type == 1"]-->class="hover"<!--[/if]-->><a href="{:U('active/index?type=1')}">体系部门</a></li>
+            <li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('active/index?type=2')}">公司活动</a></li>
+    </ul>
+    </div>
+        <div class="content">
+        	<ul>
+             <!--[volist name="list" id="v"]-->
+          <li class="down"> 
+              <span class="time">{$v.addtime|date='Y-m-d',###}</span>
+              <a href="{:U('active/show?id='.$v['id'].'')}">{$v.name}</a>
+          </li>
+          <!--[/volist]-->
+            </ul>
+            <div class="page">{$page}</div>
+        </div>
+     </div>
+     
+</div>
+
+<!--[include file="Public:footer" /]-->

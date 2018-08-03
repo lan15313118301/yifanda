@@ -1,0 +1,111 @@
+<!--[include file="Public:header" /]-->
+<script src="__JS__/pc_nb.js" charset="UTF-8"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+	$('#element_id').cxScroll();
+	$('#minthumb img').eq(0).click();
+	$('#element_id2').cxScroll();
+});
+</script>
+<div class="case_details">
+  <div class="w_auto">
+    <div class="mainbody">
+      <div class="header">
+        <div class="link">
+          <h1 class="title">{$data.name}</h1>
+          <span><a href="__APP__/">首页</a> ＞ <a href="{:U('works/index')}">作品展示</a> ＞ <a href="{:U('works/index?type='.$data['type'].'')}">{$typename}</a> </span> </div>
+        <p class="absert">
+        	<a href="" target="_blank">{$data.province}</a>
+            <a href="" target="_blank">{$data.city}</a>
+            <a href="" target="_blank">{$data.company}</a>
+        <span>{$data.addtime|date='Y-m-d',###}</span><span>浏览：{$data.click}</span></p>
+      </div>
+      <div class="cc">
+        <div class="w_auto5">
+          <div class="case_img"> <img onmouseover="KeleyiImgNext_max(this)" src="" alt="" id="maxthumb" width="852" style="cursor: default;">
+            <div id="tpms" class="tpms"></div>
+          </div>
+          <div class="cxscroll" id="element_id">
+            <div class="prev leftjt"></div>
+            <div class="box">
+              <ul id="minthumb" class="list">
+				<!--[volist name="img.imgs" id="v"]-->
+                <li><img src="{$v}" data-desc="{$data.name}-{$img['name'][($i-1)]}" onclick="showPics_max(this)" alt="{$data.name}-{$img['name'][($i-1)]}" width="145" height="97" class="hover"></li>
+				<!--[/volist]-->
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div class="next rightjt"></div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+          <!--startprint1--> 
+          <!--打印内容开始-->
+          <div class="xxms">
+            <p>项目名称：{$data.name}</p>
+            <p>&nbsp;</p>
+            <p>模型比例：{$data.proportion}</p>
+            <p>&nbsp;</p>
+            <p>模型尺寸：{$data.size}</p>
+            <p><br>
+            </p>
+            <p>客户名称：{$data.company} &nbsp;&nbsp;</p>
+            <p>&nbsp;</p>
+            {$data.content}
+            <p><br>
+            </p>
+          </div>
+          <!--打印内容结束--> 
+          <!--endprint1-->
+          <div class="lianjie">
+            <div class="nps">
+              <p>上一篇：<!--[if condition="$next"]--><a href="{:U("works/show?id=$next[id]")}">{$next.name}</a><!--[else/]-->没有了<!--[/if]--></p>
+              <p>下一篇：<!--[if condition="$prev"]--><a href="{:U("works/show?id=$prev[id]")}">{$prev.name}</a><!--[else/]--> 没有了<!--[/if]--></p>
+            </div>
+            <div class="shares"> 
+              <!-- JiaThis Button BEGIN -->
+              <div class="jiathis_style_24x24"> <a class="jiathis_button_qzone" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone"></span></a> <a class="jiathis_button_tsina" title="分享到微博"><span class="jiathis_txt jtico jtico_tsina"></span></a> <a class="jiathis_button_tqq" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq"></span></a> <a class="jiathis_button_weixin" title="分享到微信"><span class="jiathis_txt jtico jtico_weixin"></span></a> <a class="jiathis_button_renren" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren"></span></a> <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>  </div>
+              <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1385382735329652" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script> 
+              <!-- JiaThis Button END -->
+              <div class="clearfix"></div>
+              <p><a onclick="history.go(-1)">返回</a><a onclick="preview(1)">打印此页</a><a href="" target="_blank">给我们发邮件</a></p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottomer">
+        <div class="link">
+          <p class="xgtj">相关推荐</p>
+        </div>
+        <div class="cxscroll" id="element_id2">
+          <div class="box">
+            <ul id="minthumb2" class="list">
+              <!--[volist name="more" id="v"]-->
+              <li>
+                <div class="mx"> <a href="{:U('works/show?id='.$v['id'].'')}" title="{$v.name}"><img src="{$v.thumb}" alt="{$v.name}" width="240" height="136"></a>
+                  <p class="title">{$v.name}</p>
+                  <div class="casename">
+                      <a href="" target="_blank">{$v.province}</a>
+                      <a href="" target="_blank">{$v.city}</a>
+                      <a href="" target="_blank">{$v.company}</a>
+                  </div>
+                  <div class="date"><a href="{:U('works/show?id='.$v['id'].'')}">{$v.addtime|date='Y-m-d',###}</a></div>
+                  <div class="clearfix"></div>
+                </div>
+              </li>
+              <!--[/volist]-->
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+          <div class="zuoyou">
+            <div class="zuo next"></div>
+            <div class="you prev"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--[include file="Public:footer" /]-->

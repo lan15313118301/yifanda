@@ -1,0 +1,41 @@
+<!--[include file="Public:header" /]-->
+
+<div class="productbg"></div>
+<div style="clear:both"></div>
+<div class="ernavbg"></div>
+<div class="product inner">
+  <div class="ernav">
+    	<span>合作伙伴</span>
+        <ul>            
+            <!--<li &lt;!&ndash;[if condition="$type == 1"]&ndash;&gt;class="hover"&lt;!&ndash;[/if]&ndash;&gt;><a href="{:U('product/index?type=1')}">游戏名称</a></li>-->
+			<li <!--[if condition="$type == 2"]-->class="hover"<!--[/if]-->><a href="{:U('product/index?type=2')}">合作伙伴</a></li>
+
+        </ul>
+        
+       
+    </div>
+  <div class="erright">
+    <div class="top"> <span>{$typename}</span>
+      <div class="position"> 您当前位置：<a href="__APP__/">首页</a> > <a href="{:U('product/index')}">合作伙伴</a> >
+        {$typename} </div>
+    </div>
+    <div class="content">
+      <ul>
+        <!--[volist name="list" id="v"]-->
+            <li> <a href="{:U('product/show2?id='.$v['id'].'')}"><img src="{$v.thumb}"></a>
+                <span><a href="{:U('product/show2?id='.$v['id'].'')}">{$v.name}</a></span>
+                <p>{$v.summary}</p>
+            </li>
+        <!--[/volist]-->        
+      </ul>
+      <div class="page">{$page}</div>
+    </div>
+  </div>
+</div>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->
+<script>
+    $('.navbar-nav .com2 a').addClass('current1');
+    $('.navbar-nav .com1').removeClass('current');
+</script>
